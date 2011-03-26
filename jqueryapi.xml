@@ -1,91 +1,91 @@
 <?xml version="1.0" ?><api>
   <categories>
     <category name="Ajax">
-      <category name="Global Ajax Event Handlers"/>
-      <category name="Helper Functions"/>
-      <category name="Low-Level Interface"/>
-      <category name="Shorthand Methods"/>
+      <category name="Manipuladores Globais de Eventos Ajax"/>
+      <category name="Funções Auxiliares"/>
+      <category name="Interface de Baixo Nível"/>
+      <category name="Métodos Encurtadores"/>
     </category>
-    <category name="Attributes"/>
+    <category name="Atributos"/>
     <category name="Core"/>
     <category name="CSS"/>
     <category name="Data"/>
-    <category name="Deferred Object"/>
-    <category name="Dimensions"/>
-    <category name="Effects">
-      <category name="Basics"/>
-      <category name="Custom"/>
-      <category name="Fading"/>
-      <category name="Sliding"/>
+    <category name="Objeto Deferred"/>
+    <category name="Dimensões"/>
+    <category name="Efeitos">
+      <category name="Básicos"/>
+      <category name="Personalizados"/>
+      <category name="Desvanecimento"/>
+      <category name="Deslizamento"/>
     </category>
-    <category name="Events">
-      <category name="Browser Events"/>
-      <category name="Document Loading"/>
-      <category name="Event Handler Attachment"/>
-      <category name="Event Object"/>
-      <category name="Form Events"/>
-      <category name="Keyboard Events"/>
-      <category name="Mouse Events"/>
+    <category name="Eventos">
+      <category name="Eventos do Browser"/>
+      <category name="Carregamento do Documento"/>
+      <category name="Anexação de Manipudor de Evento"/>
+      <category name="Objeto Event"/>
+      <category name="Eventos de Formulários"/>
+      <category name="Eventos do Teclado"/>
+      <category name="Eventos do Mouse"/>
     </category>
-    <category name="Forms"/>
-    <category name="Manipulation">
-      <category name="Class Attribute"/>
-      <category name="Copying"/>
-      <category name="DOM Insertion"/>
-      <category name="DOM Insertion, Around"/>
-      <category name="DOM Insertion, Inside"/>
-      <category name="DOM Insertion, Outside"/>
-      <category name="DOM Removal"/>
-      <category name="DOM Replacement"/>
-      <category name="General Attributes"/>
-      <category name="Style Properties"/>
+    <category name="Formulários"/>
+    <category name="Manipulação">
+      <category name="Atributo Class"/>
+      <category name="Copiando"/>
+      <category name="Inserção no DOM"/>
+      <category name="Inserção no DOM, ao Redor"/>
+      <category name="Inserção no DOM, Dentro"/>
+      <category name="Inserção no DOM, Fora"/>
+      <category name="Remoção no DOM"/>
+      <category name="Troca no DOM"/>
+      <category name="Atributos em Geral"/>
+      <category name="Propriedades de Estilo"/>
     </category>
-    <category name="Miscellaneous">
-      <category name="Collection Manipulation"/>
-      <category name="Data Storage"/>
-      <category name="DOM Element Methods"/>
-      <category name="Setup Methods"/>
+    <category name="Diversos">
+      <category name="Manipulação de Coleções"/>
+      <category name="Armazenamento de Dados"/>
+      <category name="Métodos de Elementos DOM"/>
+      <category name="Métodos de Configuração"/>
     </category>
     <category name="Offset"/>
-    <category name="Plugin Authoring"/>
-    <category name="Properties">
-      <category name="Properties of jQuery Object Instances "/>
-      <category name="Properties of the Global jQuery Object"/>
+    <category name="Criação de Plugins"/>
+    <category name="Propriedades">
+      <category name="Propriedades de Instâncias do Objeto jQuery"/>
+      <category name="Propriedades do Objeto Global jQuery"/>
     </category>
-    <category name="Selectors">
-      <category name="Attribute"/>
-      <category name="Basic"/>
-      <category name="Basic Filter"/>
-      <category name="Child Filter"/>
-      <category name="Content Filter"/>
-      <category name="Form"/>
-      <category name="Hierarchy"/>
-      <category name="Visibility Filter"/>
+    <category name="Seletores">
+      <category name="Atributo"/>
+      <category name="Básico"/>
+      <category name="Filtro Básico"/>
+      <category name="Filtro de Filhos"/>
+      <category name="Filtro de Conteúdo"/>
+      <category name="Formulário"/>
+      <category name="Hierarquia"/>
+      <category name="Filtro de Visibilidade"/>
     </category>
-    <category name="Traversing">
-      <category name="Filtering"/>
-      <category name="Miscellaneous Traversing"/>
-      <category name="Tree Traversal"/>
+    <category name="Passagem">
+      <category name="Filtrando"/>
+      <category name="Passagens Diversas"/>
+      <category name="Passagens pela Árvore"/>
     </category>
-    <category name="Utilities"/>
-    <category name="Version">
-      <category name="Version 1.0"/>
-      <category name="Version 1.0.4"/>
-      <category name="Version 1.1"/>
-      <category name="Version 1.1.2"/>
-      <category name="Version 1.1.3"/>
-      <category name="Version 1.1.4"/>
-      <category name="Version 1.2"/>
-      <category name="Version 1.2.3"/>
-      <category name="Version 1.2.6"/>
-      <category name="Version 1.3"/>
-      <category name="Version 1.4"/>
-      <category name="Version 1.4.1"/>
-      <category name="Version 1.4.2"/>
-      <category name="Version 1.4.3"/>
-      <category name="Version 1.4.4"/>
-      <category name="Version 1.5"/>
-      <category name="Version 1.5.1"/>
+    <category name="Utilitários"/>
+    <category name="Versão">
+      <category name="Versão 1.0"/>
+      <category name="Versão 1.0.4"/>
+      <category name="Versão 1.1"/>
+      <category name="Versão 1.1.2"/>
+      <category name="Versão 1.1.3"/>
+      <category name="Versão 1.1.4"/>
+      <category name="Versão 1.2"/>
+      <category name="Versão 1.2.3"/>
+      <category name="Versão 1.2.6"/>
+      <category name="Versão 1.3"/>
+      <category name="Versão 1.4"/>
+      <category name="Versão 1.4.1"/>
+      <category name="Versão 1.4.2"/>
+      <category name="Versão 1.4.3"/>
+      <category name="Versão 1.4.4"/>
+      <category name="Versão 1.5"/>
+      <category name="Versão 1.5.1"/>
     </category>
   </categories>
     <entries>
@@ -93,16 +93,16 @@
 	<signature>
 		<added>1.5</added>
 		<argument name="element" type="Element">
-			<desc>A DOM element to be checked for data.</desc>
+			<desc>Uma checagem se há dados em um elemento DOM.</desc>
 		</argument>
 	</signature>
-	<desc>Determine whether an element has any jQuery data associated with it.</desc>
-	<longdesc><p>The <code>jQuery.hasData()</code> method provides a way to determine if an element currently has any values that were set using <code><a href='/jQuery.data'>jQuery.data()</a></code>. If no data is associated with an element (there is no data object at all or the data object is empty), the method returns <code>false</code>; otherwise it returns <code>true</code>.</p>
-<p>The primary advantage of <code>jQuery.hasData(element)</code> is that it does not create and associate a data object with the element if none currently exists. In contrast, <code>jQuery.data(element)</code> always returns a data object to the caller, creating one if no data object previously existed.
+	<desc>Determina quando um elemento tem qualquer dado jQuery associado.</desc>
+	<longdesc><p>O método <code>jQuery.hasData()</code> permite determinar se um elemento atualmente pertence quaisquer valores que foram aplicados utilizando <code><a href='/jQuery.data'>jQuery.data()</a></code>. Se nenhum dado estiver associado com um elemento (não há nenhum objeto data ou o objeto data está vazio), o método retorna <code>false</code>; Caso contrário ele retorna <code>true</code>.</p>
+<p>A vantagem principal do <code>jQuery.hasData(element)</code> é que ele não cria e associa um objeto data com o elemento se nada existir no momento. Em contraste, o <code>jQuery.data(element)</code> sempre retorna um objeto data para a quem o chama, criando um se nenhum objeto data existir anteriormente.
 </p>
 </longdesc>
 	<example>
-		<desc>Set data on an element and see the results of hasData.</desc>
+		<desc>Define dado em um elemento e verifica o resultado de hasData.</desc>
 		<code><![CDATA[
 $(function(){
   var $p = jQuery("p"), p = $p[0];
@@ -116,18 +116,18 @@ $(function(){
 	<html><![CDATA[<p>Results: </p>]]></html>
 	</example>
 <category name="Data"/>
-<category name="Version 1.5"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry type='method' name="jQuery.now" return="Number">
   <signature>
     <added>1.4.3</added>
   </signature>
-  <desc>Return a number representing the current time.</desc>
+  <desc>Retorna um número representando o tempo corrente.</desc>
   <longdesc>
-    <p>The <code>$.now()</code> method is a shorthand for the number returned by the expression <code>(new Date).getTime()</code>.</p>
+    <p>O método <code>$.now()</code> é um encurtador para o número retornado pela expressão <code>(new Date).getTime()</code>.</p>
   </longdesc>
-<category name="Utilities"/>
-<category name="Version 1.4.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 
@@ -158,7 +158,7 @@ alert( 'You are running jQuery version: ' + $.fn.jquery );
 ]]></code>
   </example>
 <category name="Internals"/>
-<category name="Properties of jQuery Object Instances"/>
+<category name="Propriedades de Instâncias do Objeto jQuery"/>
 </entry>
 <entry name="deferred.promise" type="method" return="Promise">
     <signature>
@@ -193,8 +193,8 @@ $.when( asyncEvent() ).then(
 );
 ]]></code>
     </example>
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry type='property' name="jQuery.cssHooks" return="Object">
@@ -310,7 +310,7 @@ var div = document.createElement( "div" );
   </code>
     </example>
 <category name="CSS"/>
-<category name="Version 1.4.3"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="jQuery.parseXML" return="XMLDocument">
@@ -342,8 +342,8 @@ $title.text( 'XML Title' );
 $( '#anotherElement' ).append( $title.text() );
 ]]></code>
 </example>
-<category name="Utilities"/>
-<category name="Version 1.5"/>
+<category name="Utiliários"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry type='method' name="jQuery.when" return="Promise">
     <signature>
@@ -382,7 +382,7 @@ $( '#anotherElement' ).append( $title.text() );
 ]]></code>
 </example>
 <category name="Core"/>
-<category name="Version 1.5"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry name="deferred.resolveWith" type="method" return="Deferred">
     <signature>
@@ -402,8 +402,8 @@ $( '#anotherElement' ).append( $title.text() );
     <longdesc> <p>Normally, only the creator of a Deferred should call this method; you can prevent other code from changing the Deferred's state by returning a restricted Promise object through <a href="http://api.jquery.com/deferred.promise/"><code>deferred.promise()</code></a>.</p>
 <p>When the Deferred is resolved, any doneCallbacks added by <a href="/deferred.then/"><code>deferred.then</code></a> or <a href="/deferred.done/"><code>deferred.done</code></a> are called. Callbacks are executed in the order they were added. Each callback is passed the <code>args</code> from the <code>.resolve()</code>. Any doneCallbacks added after the Deferred enters the resolved state are executed immediately when they are added, using the arguments that were passed to the <code>.resolve()</code> call. For more information, see the documentation for <a href="/category/deferred-object/">Deferred object</a>.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry name="deferred.rejectWith" type="method" return="Deferred">
@@ -424,8 +424,8 @@ $( '#anotherElement' ).append( $title.text() );
     <longdesc> <p>Normally, only the creator of a Deferred should call this method; you can prevent other code from changing the Deferred's state by returning a restricted Promise object through <a href="http://api.jquery.com/deferred.promise/"><code>deferred.promise()</code></a>.</p>
 <p>When the Deferred is rejected, any failCallbacks added by <a href="/deferred.then/"><code>deferred.then</code></a> or <a href="/deferred.fail/"><code>deferred.fail</code></a> are called. Callbacks are executed in the order they were added. Each callback is passed the <code>args</code> from the <code>deferred.reject()</code> call. Any failCallbacks added after the Deferred enters the rejected state are executed immediately when they are added, using the arguments that were passed to the <code>.reject()</code> call. For more information, see the documentation for <a href="/category/deferred-object/">Deferred object</a>.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry name="deferred.fail" type="method" return="Deferred">
@@ -447,8 +447,8 @@ $.get("test.php")
   .fail(function(){ alert("$.get failed!"); });
 ]]></code>
     </example>
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry name="deferred.done" type="method" return="Deferred">
     <signature>
@@ -469,8 +469,8 @@ $.get("test.php").done(
 );
 ]]></code>
     </example>
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry name="deferred.then" type="method" return="Deferred">
     <signature>
@@ -497,8 +497,8 @@ $.get("test.php").then(
 );
 ]]></code>
     </example>
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry name="deferred.reject" type="method" return="Deferred">
     <signature>
@@ -513,8 +513,8 @@ $.get("test.php").then(
     <longdesc> <p>Normally, only the creator of a Deferred should call this method; you can prevent other code from changing the Deferred's state by returning a restricted Promise object through <a href="http://api.jquery.com/deferred.promise/"><code>deferred.promise()</code></a>.</p>
 <p>When the Deferred is rejected, any failCallbacks added by <a href="http://api.jquery.com/deferred.then/"><code>deferred.then</code></a> or <a href="http://api.jquery.com/deferred.fail/"><code>deferred.fail</code></a> are called. Callbacks are executed in the order they were added. Each callback is passed the <code>args</code> from the <code>deferred.reject()</code> call. Any failCallbacks added after the Deferred enters the rejected state are executed immediately when they are added, using the arguments that were passed to the <code>.reject()</code> call. For more information, see the documentation for <a href="http://api.jquery.com/category/deferred-object/">Deferred object</a>.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry name="deferred.isRejected" type="method" return="Boolean">
@@ -525,8 +525,8 @@ $.get("test.php").then(
     <longdesc> <p>Returns <code>true</code> if the Deferred object is in the rejected state, meaning that either <a href="http://api.jquery.com/deferred.reject/"><code>deferred.reject()</code></a> or <a href="http://api.jquery.com/deferred.rejectWith/"><code>deferred.rejectWith()</code></a> has been called for the object and the failCallbacks have been called (or are in the process of being called).</p>
 <p>Note that a Deferred object can be in one of three states: unresolved, resolved, or rejected; use <a href="http://api.jquery.com/deferred.isResolved/"><code>deferred.isResolved()</code></a> to determine whether the Deferred object is in the resolved state. These methods are primarily useful for debugging, for example to determine whether a Deferred has already been resolved even though you are inside code that intended to reject it.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry name="deferred.isResolved" type="method" return="Boolean">
@@ -537,8 +537,8 @@ $.get("test.php").then(
     <longdesc> <p>Returns <code>true</code> if the Deferred object is in the resolved state, meaning that either <a href="http://api.jquery.com/deferred.resolve/"><code>deferred.resolve()</code></a> or <a href="http://api.jquery.com/deferred.resolveWith/"><code>deferred.resolveWith()</code></a> has been called for the object and the doneCallbacks have been called (or are in the process of being called).</p>
 <p>Note that a Deferred object can be in one of three states: unresolved, resolved, or rejected; use <a href="http://api.jquery.com/deferred.isRejected/"><code>deferred.isRejected()</code></a> to determine whether the Deferred object is in the rejected state. These methods are primarily useful for debugging, for example to determine whether a Deferred has already been resolved even though you are inside code that intended to reject it.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry name="deferred.resolve" type="method" return="Deferred">
@@ -553,8 +553,8 @@ $.get("test.php").then(
     <desc> Resolve a Deferred object and call any doneCallbacks with the given <code>args</code>. </desc>
     <longdesc> <p>When the Deferred is resolved, any doneCallbacks added by <a href="/deferred.then/"><code>deferred.then</code></a> or <a href="/deferred.done/"><code>deferred.done</code></a> are called. Callbacks are executed in the order they were added. Each callback is passed the <code>args</code> from the <code>.resolve()</code>. Any doneCallbacks added after the Deferred enters the resolved state are executed immediately when they are added, using the arguments that were passed to the <code>.resolve()</code> call. For more information, see the documentation for <a href="/category/deferred-object/">Deferred object</a>.</p>  </longdesc>
 
-<category name="Deferred Object"/>
-<category name="Version 1.5"/>
+<category name="Objeto Deferred"/>
+<category name="Versão 1.5"/>
 </entry>
 
 <entry type='method' name="jQuery.sub" return="jQuery">
@@ -645,7 +645,7 @@ $(document).ready(function() {
 });]]></code>
     </example>
 <category name="Core"/>
-<category name="Version 1.5"/>
+<category name="Versão 1.5"/>
 </entry>
 <entry type='method' name="fadeToggle" return="jQuery">
   <desc>Display or hide the matched elements by animating their opacity.</desc>
@@ -689,9 +689,9 @@ $("button:last").click(function () {
 ]]></html>
 </example>
  
-<category name="Effects"/>
-<category name="Fading"/>
-<category name="Version 1.4.4"/>
+<category name="Efeitos"/>
+<category name="Desvanecimento"/>
+<category name="Versão 1.4.4"/>
 <note type="additional">All jQuery effects, including <code>.fadeToggle()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
   <entry type='method' name="jQuery.type" return="String">
                 <signature>
@@ -721,8 +721,8 @@ $("button:last").click(function () {
                     <code><![CDATA[$("b").append( "" + jQuery.type(/test/) );]]></code>
                     <html><![CDATA[Is it a RegExp? <b></b>]]></html>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4.3"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4.3"/>
 </entry>
   <entry type='method' name="jQuery.isWindow" return="boolean">
                 <signature>
@@ -738,8 +738,8 @@ $("button:last").click(function () {
                     <code><![CDATA[$("b").append( "" + $.isWindow(window) );]]></code>
                     <html><![CDATA[Is 'window' a window? <b></b>]]></html>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4.3"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="toggle" return="jQuery">
   <desc>Bind two or more handlers to the matched elements, to be executed on alternate clicks.</desc>
@@ -824,8 +824,8 @@ $("button:last").click(function () {
 );]]></code>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='property' name="jQuery.fx.interval" return="Number">
   <desc>The rate (in milliseconds) at which animations fire.</desc>
@@ -852,9 +852,9 @@ $("input").click(function(){
       <html><![CDATA[<p><input type="button" value="Run"/></p>
 <div></div>]]></html>
                   </example>
-<category name="Custom"/>
-<category name="Properties of the Global jQuery Object"/>
-<category name="Version 1.4.3"/>
+<category name="Personalizados"/>
+<category name="Propriedades do Objeto Global jQuery"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='property' name="event.namespace" return="String">
     <signature>
@@ -878,8 +878,8 @@ $("button").click(function(event) {
 ]]></html>
         
     </example>
-<category name="Event Object"/>
-<category name="Version 1.4.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="undelegate" return="jQuery">
   <desc>Remove a handler from the event for all elements which match the current selector, now or in the future, based upon a specific set of root elements.</desc>
@@ -952,8 +952,8 @@ $("body").delegate("p", "click", foo); // ... now foo will be called when paragr
 
 $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]></code>
             </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.4.2"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.4.2"/>
 </entry>
 <entry type='method' name="delegate" return="jQuery">
   <desc>Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.</desc>
@@ -1058,8 +1058,8 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
   <button>Trigger custom event</button>
   <span style="display:none;"></span>]]></html>
   </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.4.2"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.4.2"/>
 <note type="additional">Since the <a href="http://api.jquery.com/live"><code>.live()</code></a> method handles events once they have propagated to the top of the document, it is not possible to stop propagation of live events. Similarly, events handled by <a href="http://api.jquery.com/delegate"><code>.delegate()</code></a> will always propagate to the element to which they are delegated; event handlers on any elements below it will already have been executed by the time the delegated event handler is called.</note></entry>
             <entry type='method' name="jQuery.error" return="">
                 <signature>
@@ -1075,7 +1075,7 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
                     <code><![CDATA[jQuery.error = console.error;]]></code>
                 </example>
             <category name="Internals"/>
-<category name="Version 1.4.1"/>
+<category name="Versão 1.4.1"/>
 </entry>
             <entry type='method' name="jQuery.parseJSON" return="Object">
                 <signature>
@@ -1097,8 +1097,8 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
                     <code><![CDATA[var obj = jQuery.parseJSON('{"name":"John"}');
 alert( obj.name === "John" );]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4.1"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4.1"/>
 </entry>
 <entry type='method' name="jQuery.proxy" return="Function">
     <signature>
@@ -1157,9 +1157,9 @@ alert( obj.name === "John" );]]></code>
   $("#test").click( jQuery.proxy( obj, "test" ) );
 ]]></code>
   </example>
-<category name="Event Handler Attachment"/>
-<category name="Utilities"/>
-<category name="Version 1.4"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="focusout" return="jQuery">
   <desc>Bind an event handler to the "focusout" JavaScript event.</desc>
@@ -1214,10 +1214,10 @@ $("p").focusout(function() {
 <div id="b">blur fire</div>
 ]]></html>
   </example>
-<category name="Keyboard Events"/>
-<category name="Mouse Events"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Teclado"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="focusin" return="jQuery">
   <desc>Bind an event handler to the "focusin" JavaScript event.</desc>
@@ -1250,10 +1250,10 @@ $("p").focusout(function() {
                     <html><![CDATA[<p><input type="text" /> <span>focusin fire</span></p>
 <p><input type="password" /> <span>focusin fire</span></p>]]></html>
                 </example>
-<category name="Keyboard Events"/>
-<category name="Mouse Events"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Teclado"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="has" return="jQuery">
   <signature>
@@ -1304,8 +1304,8 @@ $("p").focusout(function() {
 <ul><li>Does the UL contain an LI?</li></ul>
 ]]></html>
   </example>
-<category name="Filtering"/>
-<category name="Version 1.4"/>
+<category name="Filtrando"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="jQuery.contains" return="Boolean">
                 <signature>
@@ -1324,16 +1324,16 @@ $("p").focusout(function() {
                     <code><![CDATA[jQuery.contains(document.documentElement, document.body); // true
 jQuery.contains(document.body, document.documentElement); // false]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
    <entry type='method' name="jQuery.noop" return="Function">
                 <signature><added>1.4</added></signature>
                 <desc>An empty function.</desc>
                 <longdesc><p>You can use this empty function when you wish to pass around a function that will do nothing.</p>
 <p>This is useful for plugin authors who offer optional callbacks; in the case that no callback is given, something like <code>jQuery.noop</code> could execute.</p></longdesc>
-<category name="Utilities"/>
-<category name="Version 1.4"/>
+<category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="delay" return="jQuery">
 <signature>
@@ -1372,8 +1372,8 @@ div { width: 60px; height: 60px; float: left; }
 <div class="second"></div>]]>
 	</html>
 	</example>
-<category name="Custom"/>
-<category name="Version 1.4"/>
+<category name="Personalizados"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="parentsUntil" return="jQuery">
   <signature>
@@ -1436,8 +1436,8 @@ div { width: 60px; height: 60px; float: left; }
   <li class="item-iii">III</li>
 </ul>]]></html>
 </example>
-<category name="Tree Traversal"/>
-<category name="Version 1.4"/>
+<category name="Passagens pela Árvore"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="prevUntil" return="jQuery">
   <signature>
@@ -1496,8 +1496,8 @@ div { width: 60px; height: 60px; float: left; }
   <dd>definition 3-b</dd>
 </dl>]]></html>
 </example>
-<category name="Tree Traversal"/>
-<category name="Version 1.4"/>
+<category name="Passagens pela Árvore"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="nextUntil" return="jQuery">
   <signature>
@@ -1556,8 +1556,8 @@ div { width: 60px; height: 60px; float: left; }
   <dd>definition 3-b</dd>
 </dl>]]></html>
 </example>
-<category name="Tree Traversal"/>
-<category name="Version 1.4"/>
+<category name="Passagens pela Árvore"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="event.isImmediatePropagationStopped" return="Boolean">
     <signature>
@@ -1590,8 +1590,8 @@ $("button").click(function(event) {
   <div id="stop-log"></div>
   ]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='method' name="event.stopImmediatePropagation" return="">
     <signature>
@@ -1622,8 +1622,8 @@ $("div").click(function(event) {
         <html><![CDATA[<p>paragraph</p>
 <div>division</div>]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 <note type="additional">Since the <a href="http://api.jquery.com/live"><code>.live()</code></a> method handles events once they have propagated to the top of the document, it is not possible to stop propagation of live events. Similarly, events handled by <a href="http://api.jquery.com/delegate"><code>.delegate()</code></a> will always propagate to the element to which they are delegated; event handlers on any elements below it will already have been executed by the time the delegated event handler is called.</note></entry>
 <entry type='method' name="event.isPropagationStopped" return="Boolean">
     <signature>
@@ -1656,8 +1656,8 @@ $("button").click(function(event) {
   <div id="stop-log"></div>
   ]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='method' name="event.stopPropagation" return="">
     <signature>
@@ -1674,8 +1674,8 @@ $("button").click(function(event) {
   // do something
 });  ]]></code>
 </example>
-<category name="Event Object"/>
-<category name="Version 1.0"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0"/>
 <note type="additional">Since the <a href="http://api.jquery.com/live"><code>.live()</code></a> method handles events once they have propagated to the top of the document, it is not possible to stop propagation of live events. Similarly, events handled by <a href="http://api.jquery.com/delegate"><code>.delegate()</code></a> will always propagate to the element to which they are delegated; event handlers on any elements below it will already have been executed by the time the delegated event handler is called.</note></entry>
 <entry type='method' name="event.isDefaultPrevented" return="Boolean">
     <signature>
@@ -1691,8 +1691,8 @@ $("button").click(function(event) {
   alert( event.isDefaultPrevented() ); // true
 });  ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry name="event.preventDefault" type="method" return="undefined">
     <signature>
@@ -1715,8 +1715,8 @@ $("a").click(function(event) {
 <div id="log"></div>
 ]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.0"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='property' name="event.timeStamp" return="Number">
   <signature>
@@ -1745,8 +1745,8 @@ $('div').click(function(event) {
 <html><![CDATA[
 <div>Click.</div>]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.2.6"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.2.6"/>
 </entry>
 <entry type='property' name="event.result" return="Object">
     <signature>
@@ -1770,8 +1770,8 @@ $("button").click(function(event) {
 ]]></html>
         
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='property' name="event.which" return="Number">
     <signature>
@@ -1789,8 +1789,8 @@ $("button").click(function(event) {
 <div id="log"></div>]]></html>
         <results><![CDATA["keydown" 74  ]]></results>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.1.3"/>
 </entry>
 <entry type='property' name="event.pageY" return="Number">
     <signature>
@@ -1807,8 +1807,8 @@ div { padding: 20px; }</css>
             $("#log").text("e.pageX: " + e.pageX + ", e.pageY: " + e.pageY); 
 }); ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.0.4"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0.4"/>
 </entry>
 <entry type='property' name="event.pageX" return="Number">
     <signature>
@@ -1826,8 +1826,8 @@ div { padding: 20px; }</css>
 }); ]]></code>
     </example>
 
-<category name="Event Object"/>
-<category name="Version 1.0.4"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0.4"/>
 </entry>
 <entry type='property' name="event.currentTarget" return="Element">
     <signature>
@@ -1843,8 +1843,8 @@ div { padding: 20px; }</css>
   alert( event.currentTarget === this ); // true
 });  ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.3"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='property' name="event.relatedTarget" return="Element">
     <signature>
@@ -1858,8 +1858,8 @@ div { padding: 20px; }</css>
   alert(event.relatedTarget.nodeName); // "DIV"
 });  ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.1.4"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.1.4"/>
 </entry>
 <entry type='property' name="event.data" return="Anything">
     <signature>
@@ -1875,8 +1875,8 @@ div { padding: 20px; }</css>
   });
 });   ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.1"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.1"/>
 </entry>
 <entry type='property' name="event.target" return="Element">
     <signature>
@@ -1926,8 +1926,8 @@ $("ul").click(handler).find("ul").hide();]]></code>
   </li>  
 </ul>]]></html>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.0"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='property' name="event.type" return="String">
     <signature>
@@ -1941,8 +1941,8 @@ $("ul").click(handler).find("ul").hide();]]></code>
   alert(event.type); // "click"
 }); ]]></code>
     </example>
-<category name="Event Object"/>
-<category name="Version 1.0"/>
+<category name="Objeto Event"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='property' name="jQuery.fx.off" return="Boolean">
   <desc>Globally disable all animations.</desc>
@@ -1979,9 +1979,9 @@ $("input").click(function(){
       <html><![CDATA[<p><input type="button" value="Run"/> <button>Toggle fx</button></p>
 <div></div>]]></html>
                   </example>
-<category name="Custom"/>
-<category name="Properties of the Global jQuery Object"/>
-<category name="Version 1.3"/>
+<category name="Personalizados"/>
+<category name="Propriedades do Objeto Global jQuery"/>
+<category name="Versão 1.3"/>
 </entry>
             <entry type='method' name="each" return="jQuery">
                 <signature>
@@ -2087,9 +2087,9 @@ $("input").click(function(){
   <div></div>
   <div></div>]]></html>
                 </example>
-            <category name="Collection Manipulation"/>
-<category name="Traversing"/>
-<category name="Version 1.0"/>
+            <category name="Manipulação de Coleções"/>
+<category name="Passagem"/>
+<category name="Versão 1.0"/>
 </entry>
 
             <entry type='method' name="pushStack" return="jQuery">
@@ -2121,8 +2121,8 @@ $("input").click(function(){
     .end();]]></code>
                 </example>
             <category name="Internals"/>
-<category name="Version 1.0"/>
-<category name="Version 1.3"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.3"/>
 </entry>
             <entry type='method' name="jQuery.globalEval" return="">
                 <signature>
@@ -2141,8 +2141,8 @@ $("input").click(function(){
 test();
 // newVar === true]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.0.4"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.0.4"/>
 </entry>
             <entry type='method' name="jQuery.isXMLDoc" return="Boolean">
                 <signature>
@@ -2158,8 +2158,8 @@ test();
                     <code><![CDATA[jQuery.isXMLDoc(document) // false
 jQuery.isXMLDoc(document.body) // false]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.1.4"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.1.4"/>
 </entry>
 <entry type='method' name="jQuery.removeData" return="jQuery">
 	<signature>
@@ -2196,8 +2196,8 @@ $("span:eq(3)").text("" + jQuery.data(div, "test2"));]]></code>
 		<div>value2 after removal: <span></span></div>]]></html>
 	</example>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2.3"/>
 </entry>
 
 <entry type='method' name="jQuery.data" return="jQuery">
@@ -2238,10 +2238,10 @@ jQuery.data(document.body, 'bar', 'test');
   </div>]]></html>
     </example>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2.3"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2.3"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">Note that this method currently does not provide cross-platform support for setting data on XML documents, as Internet Explorer does not allow data to be attached via expando properties.</note></entry>
 <entry type='method' name="jQuery.data" return="Object">
 	<signature>
@@ -2310,10 +2310,10 @@ span { color:red; }
 <p>The "blah" value of this div is <span>?</span></p>]]></html>
 			</example>
 	<category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2.3"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2.3"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">Note that this method currently does not provide cross-platform support for setting data on XML documents, as Internet Explorer does not allow data to be attached via expando properties.</note></entry>
 
 <entry type='method' name="jQuery.dequeue" return="jQuery">
@@ -2348,8 +2348,8 @@ span { color:red; }
                     <html><![CDATA[<button>Start</button>  <div></div>]]></html>
                 </example>
             <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.3"/>
 </entry>
 
 <entry type='method' name="jQuery.queue" return="Array">
@@ -2391,8 +2391,8 @@ span { color:red; }
   <div></div>]]></html>
 </example>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='method' name="jQuery.queue" return="jQuery">
 	<signature>
@@ -2484,8 +2484,8 @@ span { color:red; }
   <div></div>]]></html>
       </example>
   <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.3"/>
+<category name="Utiliários"/>
+<category name="Versão 1.3"/>
 </entry>
 
 <entry type='method' name="clearQueue" return="jQuery">
@@ -2527,10 +2527,10 @@ div.newcolor { background:blue; }
 <button id="stop">Stop</button>
 <div></div>]]></html>
 </example>
-<category name="Custom"/>
+<category name="Personalizados"/>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.4"/>
+<category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="toArray" return="Array">
               <signature>
@@ -2564,8 +2564,8 @@ div.newcolor { background:blue; }
   <div>Two</div>
   <div>Three</div>]]></html>
                 </example>
-            <category name="DOM Element Methods"/>
-<category name="Version 1.4"/>
+            <category name="Métodos de Elementos DOM"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="jQuery.isEmptyObject" return="Boolean">
                 <signature>
@@ -2581,8 +2581,8 @@ div.newcolor { background:blue; }
                     <code><![CDATA[jQuery.isEmptyObject({}) // true
 jQuery.isEmptyObject({ foo: "bar" }) // false]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="jQuery.isPlainObject" return="Boolean">
                 <signature>
@@ -2598,8 +2598,8 @@ jQuery.isEmptyObject({ foo: "bar" }) // false]]></code>
                     <code><![CDATA[jQuery.isPlainObject({}) // true
 jQuery.isPlainObject("test") // false]]></code>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.4"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="keydown" return="jQuery">
   <signature>
@@ -2688,9 +2688,9 @@ input { display: block; margin-bottom: .25em; }
 </button>
 <script type="text/javascript" src="/scripts/events.js"></script>]]></html>
 </example>
-<category name="Keyboard Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Teclado"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
             <entry type='method' name="index" return="Number">
               <signature>
@@ -2835,9 +2835,9 @@ $('div').html('Index: ' + foobar);]]></code>
 </ul>
 <div></div>]]></html>
 </example>
-<category name="DOM Element Methods"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Métodos de Elementos DOM"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="removeData" return="jQuery">
               <signature>
@@ -2872,8 +2872,8 @@ $('div').html('Index: ' + foobar);]]></code>
   <div>value2 after removal: <span></span></div>]]></html>
                 </example>
             <category name="Data"/>
-<category name="Data Storage"/>
-<category name="Version 1.2.3"/>
+<category name="Armazenamento de Dados"/>
+<category name="Versão 1.2.3"/>
 </entry>
 
 
@@ -2940,10 +2940,10 @@ $("span:last").text($("div").data("test").last);
   </div>]]></html>
   </example>
 <category name="Data"/>
-<category name="Data Storage"/>
-<category name="Version 1.2.3"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Armazenamento de Dados"/>
+<category name="Versão 1.2.3"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">Note that this method currently does not provide cross-platform support for setting data on XML documents, as Internet Explorer does not allow data to be attached via expando properties.</note></entry>
 <entry type='method' name="data" return="Object">
   <signature>
@@ -3015,10 +3015,10 @@ $("button").click(function(e) {
   <p>The "blah" value of this div is <span>?</span></p>]]></html>
       </example>
   <category name="Data"/>
-<category name="Data Storage"/>
-<category name="Version 1.2.3"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Armazenamento de Dados"/>
+<category name="Versão 1.2.3"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">Note that this method currently does not provide cross-platform support for setting data on XML documents, as Internet Explorer does not allow data to be attached via expando properties.</note></entry>
 
             <entry type='method' name="get" return="Element, Array">
@@ -3092,8 +3092,8 @@ $("button").click(function(e) {
 
   <div><input type="text" /></div>]]></html>
                 </example>
-            <category name="DOM Element Methods"/>
-<category name="Version 1.0"/>
+            <category name="Métodos de Elementos DOM"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="size" return="Number">
               <signature>
@@ -3139,8 +3139,8 @@ $(document.body)
  <div></div>
 ]]></html>
 </example>
-<category name="DOM Element Methods"/>
-<category name="Version 1.0"/>
+<category name="Métodos de Elementos DOM"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="jQuery.noConflict" return="Object">
                 <signature>
@@ -3221,8 +3221,8 @@ $("content").style.display = 'none';
 jQuery("div > p").hide();]]></results>
                 </example>
             <category name="Core"/>
-<category name="Setup Methods"/>
-<category name="Version 1.0"/>
+<category name="Métodos de Configuração"/>
+<category name="Versão 1.0"/>
 </entry>
 
             <entry type='selector'  name="selected" return="">
@@ -3258,8 +3258,8 @@ jQuery("div > p").hide();]]></results>
   </select>
   <div></div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="checked" return="">
                 <sample>:checked</sample>
@@ -3295,8 +3295,8 @@ jQuery("div > p").hide();]]></results>
                     <results><![CDATA[<input type="checkbox" name="newsletter" checked="checked" value="Daily" />,
   <input type="checkbox" name="newsletter" checked="checked" value="Monthly" /> ]]]></results>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector' name="disabled" return="">
                 <sample>:disabled</sample>
@@ -3312,8 +3312,8 @@ jQuery("div > p").hide();]]></results>
     <input name="id" />
   </form>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="enabled" return="">
                 <sample>:enabled</sample>
@@ -3329,8 +3329,8 @@ jQuery("div > p").hide();]]></results>
     <input name="id" />
   </form>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="file" return="">
                 <sample>:file</sample>
@@ -3372,8 +3372,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="button" return="">
                 <sample>:button</sample>
@@ -3415,8 +3415,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="reset" return="">
                 <sample>:reset</sample>
@@ -3458,8 +3458,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="image" return="">
                 <sample>:image</sample>
@@ -3500,8 +3500,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="submit" return="">
                 <sample>:submit</sample>
@@ -3635,8 +3635,8 @@ jQuery("div > p").hide();]]></results>
 <div id="result"></div>
 ]]></html>
     </example>
-<category name="Form"/>
-<category name="Version 1.0"/>
+<category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="checkbox" return="">
                 <sample>:checkbox</sample>
@@ -3681,8 +3681,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="radio" return="">
                 <sample>:radio</sample>
@@ -3727,8 +3727,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="password" return="" >
                 <sample>:password</sample>
@@ -3770,8 +3770,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="text" return="" >
                 <sample>:text</sample>
@@ -3813,8 +3813,8 @@ jQuery("div > p").hide();]]></results>
   <div>
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="input" return="">
                 <sample>:input</sample>
@@ -3859,8 +3859,8 @@ jQuery("div > p").hide();]]></results>
   <div id="messages">
   </div>]]></html>
                 </example>
-            <category name="Form"/>
-<category name="Version 1.0"/>
+            <category name="Formulário"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="only-child" return="" >
                 <sample>:only-child</sample>
@@ -3897,8 +3897,8 @@ jQuery("div > p").hide();]]></results>
   </div>]]></html>
                     <results><![CDATA[[ <li>Glen</li> ] ]]></results>
                 </example>
-            <category name="Child Filter"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtro de Filhos"/>
+<category name="Versão 1.1.4"/>
 </entry>
             <entry type='selector'  name="last-child" return="" >
                 <sample>:last-child</sample>
@@ -3935,8 +3935,8 @@ jQuery("div > p").hide();]]></results>
     <span>David</span>
   </div>]]></html>
                 </example>
-            <category name="Child Filter"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtro de Filhos"/>
+<category name="Versão 1.1.4"/>
 </entry>
             <entry type='selector'   name="first-child" return="" >
                 <sample>:first-child</sample>
@@ -3972,8 +3972,8 @@ jQuery("div > p").hide();]]></results>
 
   </div>]]></html>
                 </example>
-            <category name="Child Filter"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtro de Filhos"/>
+<category name="Versão 1.1.4"/>
 </entry>
             <entry type='selector'   name="nth-child" return="">
                 <sample>:nth-child(index/even/odd/equation)</sample>
@@ -4076,8 +4076,8 @@ jQuery("div > p").hide();]]></results>
 
   </span>]]></html>
                 </example>
-            <category name="Child Filter"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtro de Filhos"/>
+<category name="Versão 1.1.4"/>
 </entry>
 <entry type='selector'  name="attributeContainsPrefix" return="" >
   <sample>[attribute|="value"]</sample>
@@ -4099,8 +4099,8 @@ jQuery("div > p").hide();]]></results>
   <a href="example.html" hreflang="en-UK">Some other text</a>
   ]]></html>
 </example>
-<category name="Attribute"/>
-<category name="Version 1.0"/>
+<category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
                <entry type='selector'  name="attributeContainsWord" return="" >
                 <sample>[attribute~="value"]</sample>
@@ -4122,8 +4122,8 @@ jQuery("div > p").hide();]]></results>
   <input name="letterman2" />
   <input name="newmilk" />]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="attributeMultiple" return="">
                 <sample>[attributeFilter1][attributeFilter2][attributeFilterN]</sample>
@@ -4148,8 +4148,8 @@ jQuery("div > p").hide();]]></results>
   <input id="letterman" name="new-letterman" />
   <input name="newmilk" />]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector' name="attributeContains" return="">
                 <sample>[attribute*="value"]</sample>
@@ -4171,8 +4171,8 @@ jQuery("div > p").hide();]]></results>
   <input name="letterman2" />
   <input name="newmilk" />]]></html>
                 </example>
-              <category name="Attribute"/>
-<category name="Version 1.0"/>
+              <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="attributeEndsWith" return="" >
                 <sample>[attribute$="value"]</sample>
@@ -4193,8 +4193,8 @@ jQuery("div > p").hide();]]></results>
   <input name="milkman" />
   <input name="jobletter" />]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="attributeStartsWith" return=""  >
                 <sample>[attribute^="value"]</sample>
@@ -4215,8 +4215,8 @@ jQuery("div > p").hide();]]></results>
   <input name="milkman" />
   <input name="newsboy" />]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="attributeNotEqual" return=""  >
                 <sample>[attribute!="value"]</sample>
@@ -4249,8 +4249,8 @@ jQuery("div > p").hide();]]></results>
     <span>name is accept</span>
   </div>]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="attributeEquals" return="" >
                 <sample>[attribute="value"]</sample>
@@ -4283,8 +4283,8 @@ jQuery("div > p").hide();]]></results>
     <span>name?</span>
   </div>]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="attributeHas" return="" >
                 <sample>[attribute]</sample>
@@ -4309,8 +4309,8 @@ jQuery("div > p").hide();]]></results>
   <div id="there">has an id</div>
   <div>nope</div>]]></html>
                 </example>
-            <category name="Attribute"/>
-<category name="Version 1.0"/>
+            <category name="Atributo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="visible" return="" >
                 <sample>:visible</sample>
@@ -4348,8 +4348,8 @@ jQuery("div > p").hide();]]></results>
   <div></div>
   <div style="display:none;"></div>]]></html>
                 </example>
-            <category name="Version 1.0"/>
-<category name="Visibility Filter"/>
+            <category name="Versão 1.0"/>
+<category name="Filtro de Visibilidade"/>
 </entry>
             <entry type='selector'   name="hidden" return="" >
                 <sample>:hidden</sample>
@@ -4396,8 +4396,8 @@ jQuery("div > p").hide();]]></results>
 
   </span>]]></html>
                 </example>
-            <category name="Version 1.0"/>
-<category name="Visibility Filter"/>
+            <category name="Versão 1.0"/>
+<category name="Filtro de Visibilidade"/>
 </entry>
 <entry type='selector' name="parent" return="">
   <sample>:parent</sample>
@@ -4422,8 +4422,8 @@ jQuery("div > p").hide();]]></results>
 
 </table>]]></html>
     </example>
-<category name="Content Filter"/>
-<category name="Version 1.0"/>
+<category name="Filtro de Conteúdo"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector' name="has" return="">
                 <sample>:has(selector)</sample>
@@ -4445,8 +4445,8 @@ jQuery("div > p").hide();]]></results>
   .test{ border: 3px inset red; }
   ]]></css>
                 </example>
-            <category name="Content Filter"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtro de Conteúdo"/>
+<category name="Versão 1.1.4"/>
 </entry>
             <entry type='selector'   name="empty" return=""  >
                 <sample>:empty</sample>
@@ -4471,8 +4471,8 @@ jQuery("div > p").hide();]]></results>
     <tr><td></td><td>TD#5</td></tr>
   </table>]]></html>
                 </example>
-            <category name="Content Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro de Conteúdo"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'   name="contains" return="" >
   <sample>:contains(text)</sample>
@@ -4499,8 +4499,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
       ]]>
     </html>
   </example>
-<category name="Content Filter"/>
-<category name="Version 1.1.4"/>
+<category name="Filtro de Conteúdo"/>
+<category name="Versão 1.1.4"/>
 </entry>
             <entry type='selector' name="animated" return="">
                 <sample>:animated</sample>
@@ -4529,8 +4529,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   div.colored { background:green; }
   ]]></css>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.2"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.2"/>
 </entry>
             <entry type='selector'  name="header" return=""  >
                 <sample>:header</sample>
@@ -4550,8 +4550,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   h1, h2 { margin: 3px 0; }
   ]]></css>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.2"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='selector'   name="lt" return="" >
   <sample>:lt(index)</sample>
@@ -4578,8 +4578,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   <tr><td>TD #6</td><td>TD #7</td><td>TD #8</td></tr>
 </table>]]></html>
   </example>
-<category name="Basic Filter"/>
-<category name="Version 1.0"/>
+<category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="gt" return="" >
                 <sample>:gt(index)</sample>
@@ -4605,8 +4605,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <tr><td>TD #6</td><td>TD #7</td><td>TD #8</td></tr>
   </table>]]></html>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector' name="eq" return="">
                 <sample>:eq(index)</sample>
@@ -4630,8 +4630,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   <tr><td>TD #6</td><td>TD #7</td><td>TD #8</td></tr>
 </table>]]></html>
   </example>
-<category name="Basic Filter"/>
-<category name="Version 1.0"/>
+<category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="odd" return="" >
                 <sample>:odd</sample>
@@ -4655,8 +4655,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <tr><td>Row with Index #3</td></tr>
   </table>]]></html>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="even" return="" >
                 <sample>:even</sample>
@@ -4680,8 +4680,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <tr><td>Row with Index #3</td></tr>
   </table>]]></html>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'  name="not" return=""  >
     <sample>:not(selector)</sample>
@@ -4716,8 +4716,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   <span>Peter</span>
 </div>]]></html>
     </example>
-<category name="Basic Filter"/>
-<category name="Version 1.0"/>
+<category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'   name="last" return=""  >
                 <sample>:last</sample>
@@ -4735,8 +4735,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
 
   </table>]]></html>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="first" return="" >
                 <sample>:first</sample>
@@ -4757,8 +4757,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <tr><td>Row 3</td></tr>
   </table>]]></html>
                 </example>
-            <category name="Basic Filter"/>
-<category name="Version 1.0"/>
+            <category name="Filtro Básico"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'   name="next siblings" return=""  >
     <sample>prev ~ siblings</sample>
@@ -4802,8 +4802,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   <span>span sibling (not div)</span>
   <div>div sibling</div>]]></html>
                 </example>
-            <category name="Hierarchy"/>
-<category name="Version 1.0"/>
+            <category name="Hierarquia"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="next adjacent" return="" >
                 <sample>prev + next</sample>
@@ -4834,8 +4834,8 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
   </form>
   <input name="none" />]]></html>
                 </example>
-            <category name="Hierarchy"/>
-<category name="Version 1.0"/>
+            <category name="Hierarquia"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'  name="child" return="" >
     <sample>parent &gt; child</sample>
@@ -4868,8 +4868,8 @@ body { font-size:14px; }
 </ul>
 ]]></html>
     </example>
-<category name="Hierarchy"/>
-<category name="Version 1.0"/>
+<category name="Hierarquia"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'  name="descendant" return=""  >
     <sample>ancestor descendant</sample>
@@ -4908,8 +4908,8 @@ body { font-size:14px; }
   </form>
   Sibling to form: <input name="none" />]]></html>
     </example>
-<category name="Hierarchy"/>
-<category name="Version 1.0"/>
+<category name="Hierarquia"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector' name="multiple" return=""  >
     <sample>selector1, selector2, selectorN</sample>
@@ -4974,8 +4974,8 @@ body { font-size:14px; }
   <div>div</div>
   <b></b>]]></html>
     </example>
-<category name="Basic"/>
-<category name="Version 1.0"/>
+<category name="Básico"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='selector'  name="all" return=""  >
     <sample>*</sample>
@@ -5030,8 +5030,8 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   ]]></css>
         
     </example>
-<category name="Basic"/>
-<category name="Version 1.0"/>
+<category name="Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="class" return=""  >
                 <sample>.class</sample>
@@ -5079,8 +5079,8 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   }
   ]]></css>
                 </example>
-            <category name="Basic"/>
-<category name="Version 1.0"/>
+            <category name="Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="element" return="" >
                 <sample>element</sample>
@@ -5111,8 +5111,8 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   }
   ]]></css>
                 </example>
-            <category name="Basic"/>
-<category name="Version 1.0"/>
+            <category name="Básico"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='selector'  name="id" return="" >
                 <sample>#id</sample>
@@ -5164,8 +5164,8 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   }
   ]]></css>
                 </example>
-            <category name="Basic"/>
-<category name="Version 1.0"/>
+            <category name="Básico"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="scroll" return="jQuery">
   <desc>Bind an event handler to the "scroll" JavaScript event, or trigger that event on an element.</desc>
@@ -5243,9 +5243,9 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   <p>Paragraph - <span>Scroll happened!</span></p>]]></html>
                 </example>
 
-<category name="Browser Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Browser"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="resize" return="jQuery">
   <desc>Bind an event handler to the "resize" JavaScript event, or trigger that event on an element.</desc>
@@ -5286,9 +5286,9 @@ $(window).resize(function() {
 });]]>
   </code>
 </example>
-<category name="Browser Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Browser"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="dequeue" return="jQuery">
@@ -5322,10 +5322,10 @@ $("button").click(function () {
 <html><![CDATA[<button>Start</button>  
 <div></div>]]></html>
     </example>
-  <category name="Custom"/>
+  <category name="Personalizados"/>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
 
     <entry type='method' name="queue" return="Array">
@@ -5363,10 +5363,10 @@ $("button").click(function () {
   <p></p>
   <div></div>]]></html>
   </example>
-<category name="Custom"/>
+<category name="Personalizados"/>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="queue" return="jQuery">
   <signature>
@@ -5463,10 +5463,10 @@ $('#foo').queue(function() {
   <button id="stop">Stop</button>
   <div></div>]]></html>
                 </example>
-            <category name="Custom"/>
+            <category name="Personalizados"/>
 <category name="Data"/>
-<category name="Utilities"/>
-<category name="Version 1.2"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
 
 <entry type='method' name="keyup" return="jQuery">
@@ -5558,9 +5558,9 @@ input { display: block; margin-bottom: .25em; }
 </button>
 <script type="text/javascript" src="/scripts/events.js"></script>]]></html>
 </example>
-<category name="Keyboard Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Teclado"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="keypress" return="jQuery">
   <desc>Bind an event handler to the "keypress" JavaScript event, or trigger that event on an element.</desc>
@@ -5655,9 +5655,9 @@ input { display: block; margin-bottom: .25em; }
 </button>
 <script type="text/javascript" src="/scripts/events.js"></script>]]></html>
 </example>
-<category name="Keyboard Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Teclado"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="submit" return="jQuery">
   <desc>Bind an event handler to the "submit" JavaScript event, or trigger that event on an element.</desc>
@@ -5744,10 +5744,10 @@ input { display: block; margin-bottom: .25em; }
                     <desc>To trigger the submit event on the first form on the page, try:</desc>
                     <code><![CDATA[$("form:first").submit();]]></code>
                 </example>
-<category name="Form Events"/>
-<category name="Forms"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos de Formulários"/>
+<category name="Formulários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">Forms and their child elements should not use input names or ids that conflict with properties of a form, such as <code>submit</code>, <code>length</code>, or <code>method</code>. Name conflicts can cause confusing failures. For a complete list of rules and to check your markup for these problems, see <a href="http://yura.thinkweb2.com/domlint/">DOMLint</a>. 
 </note></entry>
 <entry type='method' name="select" return="jQuery">
@@ -5820,10 +5820,10 @@ input { display: block; margin-bottom: .25em; }
     <code><![CDATA[$("input").select();]]></code>
 </example>
 
-<category name="Form Events"/>
-<category name="Forms"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos de Formulários"/>
+<category name="Formulários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="change" return="jQuery">
   <desc>Bind an event handler to the "change" JavaScript event, or trigger that event on an element.</desc>
@@ -5905,10 +5905,10 @@ input { display: block; margin-bottom: .25em; }
   // check input ($(this).val()) for validity here
 });]]></code>
                 </example>
-<category name="Form Events"/>
-<category name="Forms"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos de Formulários"/>
+<category name="Formulários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="blur" return="jQuery">
   <desc>Bind an event handler to the "blur" JavaScript event, or trigger that event on an element.</desc>
@@ -5961,10 +5961,10 @@ $('#target').blur(function() {
     <code><![CDATA[$("p").blur();]]></code>
 </example>
 
-<category name="Form Events"/>
-<category name="Forms"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos de Formulários"/>
+<category name="Formulários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="focus" return="jQuery">
   <desc>Bind an event handler to the "focus" JavaScript event, or trigger that event on an element.</desc>
@@ -6041,10 +6041,10 @@ $('#target').blur(function() {
 });]]></code>
                 </example>
 
-<category name="Form Events"/>
-<category name="Forms"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos de Formulários"/>
+<category name="Formulários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mousemove" return="jQuery">
   <desc>Bind an event handler to the "mousemove" JavaScript event, or trigger that event on an element.</desc>
@@ -6132,9 +6132,9 @@ $('#target').blur(function() {
   <div></div>]]></html>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="hover" return="jQuery">
@@ -6202,8 +6202,8 @@ $("li.fade").hover(function(){$(this).fadeOut(100);$(this).fadeIn(500);});
     <code><![CDATA[$("td").unbind('mouseenter mouseleave');]]></code>
   </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
 </entry>
 
 <entry type='method' name="hover" return="jQuery">
@@ -6253,8 +6253,8 @@ $("li")
     <li>Green</li>
   </ul>]]></html>
                 </example>
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
 </entry>
 
 <entry type='method' name="mouseleave" return="jQuery">
@@ -6355,9 +6355,9 @@ padding:0;
 ]]></html>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mouseenter" return="jQuery">
   <desc>Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element.</desc>
@@ -6458,9 +6458,9 @@ padding:0;
 ]]></html>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mouseout" return="jQuery">
   <desc>Bind an event handler to the "mouseout" JavaScript event, or trigger that event on an element.</desc>
@@ -6559,9 +6559,9 @@ padding:0;
 ]]></html>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mouseover" return="jQuery">
   <desc>Bind an event handler to the "mouseover" JavaScript event, or trigger that event on an element.</desc>
@@ -6656,9 +6656,9 @@ p { line-height:1em; margin:0; padding:0; }
 ]]></html>
 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="dblclick" return="jQuery">
   <desc>Bind an event handler to the "dblclick" JavaScript event, or trigger that event on an element.</desc>
@@ -6740,9 +6740,9 @@ For example, consider the HTML:</p>
                     <html><![CDATA[<div></div><span>Double click the block</span>]]></html>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="click" return="jQuery">
   <desc>Bind an event handler to the "click" JavaScript event, or trigger that event on an element.</desc>
@@ -6821,9 +6821,9 @@ For example, consider the HTML:</p>
                     <code><![CDATA[$("p").click();]]></code>
                 </example>
 
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mouseup" return="jQuery">
   <desc>Bind an event handler to the "mouseup" JavaScript event, or trigger that event on an element.</desc>
@@ -6884,9 +6884,9 @@ For example, consider the HTML:</p>
                     <html><![CDATA[<p>Press mouse and release here.</p>
 ]]></html>
                 </example>
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="mousedown" return="jQuery">
   <desc>Bind an event handler to the "mousedown" JavaScript event, or trigger that event on an element.</desc>
@@ -6949,9 +6949,9 @@ For example, consider the HTML:</p>
                     <html><![CDATA[<p>Press mouse and release here.</p>
 ]]></html>
                 </example>
-<category name="Mouse Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Mouse"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 <entry type='method' name="error" return="jQuery">
   <desc>Bind an event handler to the "error" JavaScript event.</desc>
@@ -6999,9 +6999,9 @@ For example, consider the HTML:</p>
   .attr("src", "missing.png");]]></code>
                 </example>
 
-<category name="Browser Events"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Eventos do Browser"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="unload" return="jQuery">
@@ -7039,9 +7039,9 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
     <code><![CDATA[$(window).unload( function () { alert("Bye now!"); } );]]></code>
 </example>
 
-<category name="Document Loading"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Carregamento do Documento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="load" return="jQuery">
@@ -7090,9 +7090,9 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
 });]]></code>
                 </example>
 
-<category name="Document Loading"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Carregamento do Documento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="ready" return="jQuery">
@@ -7137,8 +7137,8 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
   <css><![CDATA[p { color:red; }]]></css>
   <html><![CDATA[<p>Not loaded yet.</p>]]></html>
   </example>
-<category name="Document Loading"/>
-<category name="Version 1.0"/>
+<category name="Carregamento do Documento"/>
+<category name="Versão 1.0"/>
 </entry>
 
 <entry type='method' name="die" return="jQuery">
@@ -7151,9 +7151,9 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
 See the discussions of <code>.live()</code> and <code>.unbind()</code> for further details.</p>
 <p><strong>Note:</strong> Up to jQuery 1.4.4, in order for .die() to function correctly, the selector used with it must match exactly the selector initially used with .live().</p>
 </longdesc>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4.1"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4.1"/>
 </entry>
 <entry type='method' name="die" return="jQuery">
   <desc>Remove an event handler previously attached using <code>.live()</code> from the elements.</desc>
@@ -7216,9 +7216,9 @@ $("p").live("click", foo); // ... now foo will be called when paragraphs are cli
 
 $("p").die("click", foo); // ... foo will no longer be called.]]></code>
             </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4.1"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4.1"/>
 </entry>
 
 
@@ -7290,10 +7290,10 @@ The <code>$.browser</code> property is deprecated in jQuery 1.3, and its functio
  }
 ]]></code>
   </example>
-<category name="Properties of the Global jQuery Object"/>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
-<category name="Version 1.1.3"/>
+<category name="Propriedades do Objeto Global jQuery"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.1.3"/>
 </entry>
 <entry type='property' name="jQuery.browser.version" return="String">
   <signature><added>1.1.3</added></signature>
@@ -7338,10 +7338,10 @@ if ( $.browser.msie ) {
 }
 ]]></code>
   </example>
-<category name="Properties of the Global jQuery Object"/>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
-<category name="Version 1.1.3"/>
+<category name="Propriedades do Objeto Global jQuery"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.1.3"/>
 </entry>
 
 <entry type='method' name="live" return="jQuery">
@@ -7511,8 +7511,8 @@ if ( $.browser.msie ) {
   <span style="display:none;"></span>
   ]]></html>
   </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.3"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.3"/>
 </entry>
 <entry type='method' name="triggerHandler" return="Object">
   <desc>Execute all handlers attached to an element for an event.</desc>
@@ -7555,8 +7555,8 @@ $("<span>Focused!</span>").appendTo("body").fadeOut(1000);
 
 <input type="text" value="To Be Focused"/>]]></html>
   </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.2"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.2"/>
 </entry>
 
 <entry type='method' name="trigger" return="jQuery">
@@ -7658,8 +7658,8 @@ pass:"bar"
 
 });]]></code>
     </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.0"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="ajaxComplete" return="jQuery">
 				<signature>
@@ -7704,8 +7704,8 @@ pass:"bar"
    $(this).append("<li>Request Complete.</li>");
  });]]></code>
                 </example>
-            <category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+            <category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="one" return="jQuery">
   <desc>Attach a handler to an event for the elements. The handler is executed at most once per element.</desc>
@@ -7770,8 +7770,8 @@ alert( $(this).text() );
 });]]></code>
 </example>
 
-<category name="Event Handler Attachment"/>
-<category name="Version 1.1"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.1"/>
 </entry>
            <entry type='method' name="serializeArray" return="Array">
 				<signature>
@@ -7877,9 +7877,9 @@ alert( $(this).text() );
     <label for="r2">radio2</label>
   </form>]]></html>
                 </example>
-            <category name="Forms"/>
-<category name="Helper Functions"/>
-<category name="Version 1.2"/>
+            <category name="Formulários"/>
+<category name="Funções Auxiliares"/>
+<category name="Versão 1.2"/>
 </entry>
             <entry type='method' name="serialize" return="String">
 				<signature>
@@ -7966,9 +7966,9 @@ alert( $(this).text() );
   </form>
   <p><tt id="results"></tt></p>]]></html>
                 </example>
-            <category name="Forms"/>
-<category name="Helper Functions"/>
-<category name="Version 1.0"/>
+            <category name="Formulários"/>
+<category name="Funções Auxiliares"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="jQuery.ajaxSetup" return="">
   <signature>
@@ -8002,8 +8002,8 @@ alert( $(this).text() );
  });
  $.ajax({ data: myData });]]></code>
     </example>
-<category name="Low-Level Interface"/>
-<category name="Version 1.1"/>
+<category name="Interface de Baixo Nível"/>
+<category name="Versão 1.1"/>
 </entry>
 <entry type='method' name="ajaxSuccess" return="jQuery">
   <signature>
@@ -8050,8 +8050,8 @@ alert( $(this).text() );
       });]]></code>
   </example>
 
-<category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+<category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 
 
@@ -8086,8 +8086,8 @@ alert( $(this).text() );
       $(this).hide();
       });]]></code>
   </example>
-<category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+<category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="ajaxStart" return="jQuery">
 				<signature>
@@ -8120,8 +8120,8 @@ alert( $(this).text() );
    $(this).show();
  });]]></code>
                 </example>
-<category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+<category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="ajaxSend" return="jQuery">
   <signature>
@@ -8162,8 +8162,8 @@ alert( $(this).text() );
         $(this).append("<li>Starting request at " + settings.url + "</li>");
       });]]></code>
     </example>
-<category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+<category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="ajaxError" return="jQuery">
   <signature>
@@ -8203,8 +8203,8 @@ alert( $(this).text() );
   $(this).append("<li>Error requesting page " + settings.url + "</li>");
 });]]></code>
   </example>
-<category name="Global Ajax Event Handlers"/>
-<category name="Version 1.0"/>
+<category name="Manipuladores Globais de Eventos Ajax"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="unbind" return="jQuery">
   <desc>Remove a previously-attached event handler from the elements.</desc>
@@ -8328,9 +8328,9 @@ $("p").bind("click", foo); // ... now foo will be called when paragraphs are cli
 
 $("p").unbind("click", foo); // ... foo will no longer be called.]]></code>
 </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 </entry>
 
 <entry type='method' name="bind" return="jQuery">
@@ -8550,10 +8550,10 @@ span { color:blue; }
   }
 });]]></code>
 </example>
-<category name="Event Handler Attachment"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
-<category name="Version 1.4.3"/>
+<category name="Anexação de Manipudor de Evento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
+<category name="Versão 1.4.3"/>
 </entry>
             <entry type='method' name="first" return="jQuery">
               <signature>
@@ -8580,8 +8580,8 @@ span { color:blue; }
                     <code><![CDATA[$("p span").first().addClass('highlight');]]></code>
                     <html><![CDATA[<p><span>Look:</span> <span>This is some text in a paragraph.</span> <span>This is a note about it.</span></p>]]></html>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.4"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="last" return="jQuery">
               <signature>
@@ -8608,8 +8608,8 @@ span { color:blue; }
                     <code><![CDATA[$("p span").last().addClass('highlight');]]></code>
                     <html><![CDATA[<p><span>Look:</span> <span>This is some text in a paragraph.</span> <span>This is a note about it.</span></p>]]></html>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.4"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="slice" return="jQuery">
               <signature>
@@ -8710,8 +8710,8 @@ span { color:blue; }
                     <desc>Selects all paragraphs, then slices the selection to include only the third element.</desc>
                     <code><![CDATA[$("p").slice(-1).wrapInner("<b></b>");]]></code>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.1.4"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.1.4"/>
 </entry>
 
   <entry type='method' name="jQuery" return="jQuery">
@@ -8802,8 +8802,8 @@ $.post('url.xml', function(data) {
       <code><![CDATA[$(myForm.elements).hide()]]></code>
   </example>
 <category name="Core"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
   <entry type='method' name="jQuery" return="jQuery">
     <signature>
@@ -8859,8 +8859,8 @@ $('&lt;input&gt;');
 }).appendTo("body");]]></code>
   </example>
 <category name="Core"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="jQuery" return="jQuery">
   <signature>
@@ -8888,8 +8888,8 @@ $('&lt;input&gt;');
     </example>
     
   <category name="Core"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
 <entry type='method' name="stop" return="jQuery">
@@ -8954,8 +8954,8 @@ margin: 5px;
 }
 ]]></css>
   </example>
-<category name="Custom"/>
-<category name="Version 1.2"/>
+<category name="Personalizados"/>
+<category name="Versão 1.2"/>
 </entry>
 
             <entry type='method' name="end" return="jQuery">
@@ -9047,8 +9047,8 @@ $('ul.first').find('.foo')
                     <css><![CDATA[p { margin:10px; padding:10px; }]]></css>
                     <html><![CDATA[<p><span>Hello</span>, how are you?</p>]]></html>
                 </example>
-            <category name="Miscellaneous Traversing"/>
-<category name="Version 1.0"/>
+            <category name="Passagens Diversas"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="andSelf" return="jQuery">
               <signature>
@@ -9088,8 +9088,8 @@ $('ul.first').find('.foo')
     <p>Second Paragraph</p>
   </div>]]></html>
                 </example>
-            <category name="Miscellaneous Traversing"/>
-<category name="Version 1.2"/>
+            <category name="Passagens Diversas"/>
+<category name="Versão 1.2"/>
 </entry>
             <entry type='method' name="siblings" return="jQuery">
               <signature>
@@ -9161,8 +9161,8 @@ $('ul.first').find('.foo')
   <p class="selected">Hello Again</p>
   <p>And Again</p>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="animate" return="jQuery">
   <desc>Perform a custom animation of a set of CSS properties.</desc>
@@ -9479,8 +9479,8 @@ div {
 }, 1000, "linear", function(){ alert("all done"); });
 ]]></code>
   </example>
-<category name="Custom"/>
-<category name="Version 1.0"/>
+<category name="Personalizados"/>
+<category name="Versão 1.0"/>
 <note type="additional">All jQuery effects, including <code>.animate()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
             <entry type='method' name="prevAll" return="jQuery">
               <signature>
@@ -9519,8 +9519,8 @@ div {
   <div></div>
   <div></div>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.2"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.2"/>
 </entry>
             <entry type='method' name="prev" return="jQuery">
               <signature>
@@ -9584,8 +9584,8 @@ div {
   <p class="selected">Hello Again</p>
   <p>And Again</p>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="fadeTo" return="jQuery">
   <desc>Adjust the opacity of the matched elements.</desc>
@@ -9715,9 +9715,9 @@ div { background:blue; }
 <p>Right!</p>
 <div></div>]]></html>
     </example>
-<category name="Fading"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Desvanecimento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.fadeTo()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
 
 <entry type='method' name="fadeOut" return="jQuery">
@@ -9846,9 +9846,9 @@ button { float:left; margin:5px 10px 5px 0; }
 <div id="box2" class="box">swing</div>
 ]]></html>
 </example>
-<category name="Fading"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Desvanecimento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.fadeOut()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
 <entry type='method' name="parents" return="jQuery">
   <signature>
@@ -9947,8 +9947,8 @@ $("span").click(function () {
 
   <b>Click Hellos to toggle their parents.</b>]]></html>
     </example>
-<category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+<category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="fadeIn" return="jQuery">
   <desc>Display the matched elements by fading them to opaque.</desc>
@@ -10046,9 +10046,9 @@ $("span").click(function () {
 
       </p>]]></html>
       </example>
-<category name="Fading"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Desvanecimento"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.fadeIn()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
             <entry type='method' name="parent" return="jQuery">
               <signature>
@@ -10125,8 +10125,8 @@ $("span").click(function () {
   <div class="selected"><p>Hello Again</p></div>
 ]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="offsetParent" return="jQuery">
               <signature>
@@ -10183,7 +10183,7 @@ $("span").click(function () {
   </html>
 </example>
 <category name="Offset"/>
-<category name="Tree Traversal"/>
+<category name="Passagens pela Árvore"/>
 </entry>
 <entry type='method' name="slideToggle" return="jQuery">
   <desc>Display or hide the matched elements with a sliding motion.</desc>
@@ -10291,8 +10291,8 @@ $("span").click(function () {
 <p><button id="aa">Toggle</button> There have been <span>0</span> toggled divs.</p>]]></html>
   </example>
 <category name="Sliding"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.slideToggle()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
 <entry type='method' name="jQuery.post" return="jqXHR">
   <signature>
@@ -10424,9 +10424,9 @@ $("span").click(function () {
   <div id="result"></div>
 ]]></html>
   </example>
-          <category name="Shorthand Methods"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
+          <category name="Métodos Encurtadores"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
 <note type="additional">Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, or protocol.</note><note type="additional">If a request with jQuery.post() returns an error code, it will fail silently unless the script has also called the global <a href="http://api.jquery.com/ajaxError/">.ajaxError() </a> method or. As of jQuery 1.5, the <code>.error()</code> method of the <code>jqXHR</code> object returned by jQuery.post() is also available for error handling.</note></entry>
 <entry type='method' name="slideUp" return="jQuery">
   <desc>Hide the matched elements with a sliding motion.</desc>
@@ -10530,8 +10530,8 @@ $("span").click(function () {
 <div id="msg"></div>]]></html>
         </example>
 <category name="Sliding"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.slideUp()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
             <entry type='method' name="nextAll" return="jQuery">
               <signature>
@@ -10593,8 +10593,8 @@ $("span").click(function () {
   <p>p</p>
   <div>div</div>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.2"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.2"/>
 </entry>
             <entry type='method' name="next" return="jQuery">
               <signature>
@@ -10640,8 +10640,8 @@ $("span").click(function () {
   <p class="selected">Hello Again</p>
   <div><span>And Again</span></div>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="slideDown" return="jQuery">
 <desc>Display the matched elements with a sliding motion.</desc>
@@ -10739,8 +10739,8 @@ margin:10px; }
 <input type="text" />]]></html>
 </example>
 <category name="Sliding"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.slideDown()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
             <entry type='method' name="find" return="jQuery">
               <signature>
@@ -10815,8 +10815,8 @@ margin:10px; }
   or stop believing
   </p>]]></html>
     </example>
-<category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+<category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="jQuery.getScript" return="XMLHttpRequest">
 				<signature>
@@ -10872,9 +10872,9 @@ margin:10px; }
    alert("Script loaded and executed.");
  });]]></code>
                 </example>
-            <category name="Shorthand Methods"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
+            <category name="Métodos Encurtadores"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
 </entry>
             <entry type='method' name="contents" return="jQuery">
               <signature>
@@ -10918,8 +10918,8 @@ $('.container').contents().filter(function() {
     <html><![CDATA[<iframe src="http://api.jquery.com/" width="80%" height="600" id='frameDemo'></iframe> ]]></html>
   </example>
 
-  <category name="Miscellaneous Traversing"/>
-<category name="Version 1.2"/>
+  <category name="Passagens Diversas"/>
+<category name="Versão 1.2"/>
 </entry>
 
             <entry type='method' name="closest" return="jQuery">
@@ -11018,9 +11018,9 @@ $('li.item-a').closest('#one', listItemII)
 <li>You can also <b>Click me!</b></li>
 </ul>]]></html>
   </example>
-  <category name="Tree Traversal"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4"/>
+  <category name="Passagens pela Árvore"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4"/>
 </entry>
   <entry type='method' name="closest" return="Array">
     <signature>
@@ -11043,9 +11043,9 @@ $('li.item-a').closest('#one', listItemII)
         <css><![CDATA[]]></css>
         <html><![CDATA[<ul><li></li><li></li></ul>]]></html>
       </example>
-    <category name="Tree Traversal"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4"/>
+    <category name="Passagens pela Árvore"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4"/>
 </entry>
   
 <entry type='method' name="jQuery.getJSON" return="jqXHR">
@@ -11154,9 +11154,9 @@ $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?
     alert("JSON Data: " + json.users[3].name);
     });]]></code>
   </example>
-<category name="Shorthand Methods"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
+<category name="Métodos Encurtadores"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
 <note type="additional">Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, or protocol.</note><note type="additional">Script and JSONP requests are not subject to the same origin policy restrictions.</note></entry>
 <entry type='method' name="jQuery.get" return="jqXHR">
   <signature>
@@ -11243,9 +11243,9 @@ alert("Data Loaded: " + data);
      console.log(data.time); //  2pm
    }, "json");]]></code>
     </example>
-<category name="Shorthand Methods"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
+<category name="Métodos Encurtadores"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
 <note type="additional">Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, or protocol.</note><note type="additional">If a request with jQuery.get() returns an error code, it will fail silently unless the script has also called the global <a href="http://api.jquery.com/ajaxError/">.ajaxError() </a> method or. As of jQuery 1.5, the <code>.error()</code> method of the <code>jqXHR</code> object returned by jQuery.get() is also available for error handling.</note><note type="additional">Script and JSONP requests are not subject to the same origin policy restrictions.</note></entry>
 <entry type='method' name="load" return="jQuery">
   <signature>
@@ -11328,8 +11328,8 @@ $("#success").load("/not-here.php", function(response, status, xhr) {
 alert("The last 25 entries in the feed have been loaded");
 });]]></code>
   </example>
-<category name="Shorthand Methods"/>
-<category name="Version 1.0"/>
+<category name="Métodos Encurtadores"/>
+<category name="Versão 1.0"/>
 <note type="additional">Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, or protocol.</note></entry>
 <entry type='method' name="jQuery.ajax" return="jqXHR">
   <signature>
@@ -11631,10 +11631,10 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
    }
 ).responseText;]]></code>
                 </example>
-            <category name="Low-Level Interface"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
-<category name="Version 1.5.1"/>
+            <category name="Interface de Baixo Nível"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
+<category name="Versão 1.5.1"/>
 <note type="additional">Due to browser security restrictions, most "Ajax" requests are subject to the <a title="Same Origin Policy on Wikipedia" href="http://en.wikipedia.org/wiki/Same_origin_policy">same origin policy</a>; the request can not successfully retrieve data from a different domain, subdomain, or protocol.</note><note type="additional">Script and JSONP requests are not subject to the same origin policy restrictions.</note></entry>
 
    <entry type='property' name="length" return="Number">
@@ -11659,8 +11659,8 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
                     <html><![CDATA[<span></span>
   <div></div>]]></html>
                 </example>
-            <category name="Properties of jQuery Object Instances"/>
-<category name="Version 1.0"/>
+            <category name="Propriedades de Instâncias do Objeto jQuery"/>
+<category name="Versão 1.0"/>
 </entry>
             
             
@@ -11784,8 +11784,8 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
     <p>And One Last Time</p>
   </div>]]></html>
                 </example>
-            <category name="Tree Traversal"/>
-<category name="Version 1.0"/>
+            <category name="Passagens pela Árvore"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='property' name="selector" return="String">
   <signature><added>1.3</added></signature>
@@ -11819,8 +11819,8 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
 ]]></html>
   </example>
 <category name="Internals"/>
-<category name="Properties of jQuery Object Instances"/>
-<category name="Version 1.3"/>
+<category name="Propriedades de Instâncias do Objeto jQuery"/>
+<category name="Versão 1.3"/>
 </entry>
             <entry type='method' name="add" return="jQuery">
               <signature>
@@ -11927,9 +11927,9 @@ collection = collection.add(document.getElementById("a"));
 collection.css("background", "yellow");]]></code>
 	<html><![CDATA[<p>Hello</p><span id="a">Hello Again</span>]]></html>
 </example>
-<category name="Miscellaneous Traversing"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Passagens Diversas"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
     <entry type='property' name="context" return="Element">
                 <signature><added>1.3</added></signature>
@@ -11952,8 +11952,8 @@ The value of this property is typically equal to document, as this is the defaul
                     <html><![CDATA[Context:<ul></ul>]]></html>
                 </example>
             <category name="Internals"/>
-<category name="Properties of jQuery Object Instances"/>
-<category name="Version 1.3"/>
+<category name="Propriedades de Instâncias do Objeto jQuery"/>
+<category name="Versão 1.3"/>
 </entry>
             <entry type='method' name="not" return="jQuery">
               <signature>
@@ -12042,9 +12042,9 @@ $('li').not(document.getElementById('notli'))
                     <desc>Removes all elements that match "div p.selected" from the total set of all paragraphs.</desc>
                     <code><![CDATA[$("p").not($("div p.selected"))]]></code>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="outerWidth" return="Integer">
 				<signature>
@@ -12070,9 +12070,9 @@ $("p:last").text( "outerWidth:" + p.outerWidth()+ " , outerWidth(true):" + p.out
                     <html><![CDATA[<p>Hello</p><p></p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
             <entry type='method' name="outerHeight" return="Integer">
 				<signature>
@@ -12093,9 +12093,9 @@ $("p:last").text( "outerHeight:" + p.outerHeight() + " , outerHeight(true):" + p
                     <html><![CDATA[<p>Hello</p><p></p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 <entry type='method' name="toggle" return="jQuery">
   <desc>Display or hide the matched elements.</desc>
@@ -12219,10 +12219,10 @@ $("p").toggle( flip++ % 2 == 0 );
 <p style="display: none">Good Bye</p>]]></html>
   </example>
  
-<category name="Basics"/>
-<category name="Version 1.0"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4.3"/>
+<category name="Básicos"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.toggle()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
             <entry type='method' name="innerWidth" return="Integer">
 				<signature>
@@ -12240,9 +12240,9 @@ $("p:last").text( "innerWidth:" + p.innerWidth() );]]></code>
                     <html><![CDATA[<p>Hello</p><p></p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
             <entry type='method' name="innerHeight" return="Integer">
 				<signature>
@@ -12260,9 +12260,9 @@ $("p:last").text( "innerHeight:" + p.innerHeight() );]]></code>
                     <html><![CDATA[<p>Hello</p><p></p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 <entry type='method' name="jQuery.param" return="String">
   <signature>
@@ -12358,11 +12358,11 @@ $.param({ a: { b:1,c:2 }, d: [3,4,{ e:5 }] }) // "a[b]=1&a[c]=2&d[]=3&d[]=4&d[2]
                     <css><![CDATA[div { color:red; }]]></css>
                 </example>
                 
-            <category name="Collection Manipulation"/>
-<category name="Forms"/>
-<category name="Helper Functions"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+            <category name="Manipulação de Coleções"/>
+<category name="Formulários"/>
+<category name="Funções Auxiliares"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="hide" return="jQuery">
   <desc>Hide the matched elements.</desc>
@@ -12493,9 +12493,9 @@ $('#clickme').click(function() {
   ]]></css>
                     <html><![CDATA[<div></div>]]></html>
                 </example>
-<category name="Basics"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Básicos"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.hide()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
 
 
@@ -12546,10 +12546,10 @@ $(document).width(); // returns width of HTML document</pre>
   </p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.1"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.1"/>
 </entry>
             <entry type='method' name="width" return="jQuery">
 				<signature>
@@ -12591,10 +12591,10 @@ $(document).width(); // returns width of HTML document</pre>
   <div>d</div>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.1"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.1"/>
 </entry>
 
 
@@ -12646,10 +12646,10 @@ $(document).height(); // returns height of HTML document</pre>
   </p>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.1"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.1"/>
 </entry>
             <entry type='method' name="height" return="jQuery">
 				<signature>
@@ -12685,10 +12685,10 @@ $(document).height(); // returns height of HTML document</pre>
   <div></div>]]></html>
                 </example>
             <category name="CSS"/>
-<category name="Dimensions"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.1"/>
+<category name="Dimensões"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.1"/>
 </entry>
 
 <entry type='method' name="show" return="jQuery">
@@ -12823,9 +12823,9 @@ $("form").submit(function () {
   ]]></html>
 </example>
 
-<category name="Basics"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4.3"/>
+<category name="Básicos"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4.3"/>
 <note type="additional">All jQuery effects, including <code>.show()</code>, can be turned off globally by setting  <code>jQuery.fx.off = true</code>, which effectively sets the duration to 0. For more information, see <a href="http://api.jquery.com/jquery.fx.off">jQuery.fx.off</a>.</note></entry>
 
 <entry type='method' name="scrollLeft" return="Integer">
@@ -12847,8 +12847,8 @@ $("form").submit(function () {
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 <entry type='method' name="scrollLeft" return="jQuery">
   <signature>
@@ -12880,8 +12880,8 @@ $("form").submit(function () {
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 
 <entry type='method' name="jQuery.trim" return="String">
@@ -12916,8 +12916,8 @@ alert("'" + str + "' - no longer");
       <code><![CDATA[$.trim("  hello, how are you?  ");]]></code>
       <results><![CDATA["hello, how are you?"]]></results>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 
 
@@ -12967,8 +12967,8 @@ alert("'" + str + "' - no longer");
                     <code><![CDATA[$.isFunction(function(){});]]></code>
                     <results><![CDATA[true]]></results>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.2"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
   <entry type='method' name="jQuery.isArray" return="boolean">
                 <signature>
@@ -12984,8 +12984,8 @@ alert("'" + str + "' - no longer");
                     <code><![CDATA[$("b").append( "" + $.isArray([]) );]]></code>
                     <html><![CDATA[Is [] an Array? <b></b>]]></html>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.3"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.3"/>
 </entry>
             <entry type='method' name="jQuery.unique" return="Array">
                 <signature>
@@ -13024,8 +13024,8 @@ alert("'" + str + "' - no longer");
   <div></div>]]></html>
                 </example>
                 
-            <category name="Utilities"/>
-<category name="Version 1.1.3"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.1.3"/>
 </entry>
 <entry type='method' name="jQuery.merge" return="Array">
   <desc>Merge the contents of two arrays together into the first array. </desc>
@@ -13062,8 +13062,8 @@ $.merge( $.merge([],first), second);
       ]]></code>
     <results><![CDATA[["a","b","c","d","e","f"] ]]></results>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="jQuery.inArray" return="Number">
   <signature><added>1.2</added>
@@ -13098,8 +13098,8 @@ $("span:eq(2)").text(jQuery.inArray("Karl", arr));
 <div>4 found at <span></span></div>
 <div>"Karl" not found, so <span></span></div>]]></html>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.2"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="jQuery.map" return="Array">
   <signature>
@@ -13192,8 +13192,8 @@ array = $.map(array, function(a, index) {
                     <results><![CDATA[[-45, 0, -44, 1, 7, 2, 52, 3] ]]></results>
                 </example>
                 
-            <category name="Utilities"/>
-<category name="Version 1.0"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="jQuery.makeArray" return="Array">
   <signature>
@@ -13234,8 +13234,8 @@ array = $.map(array, function(a, index) {
 jQuery.isArray(arr) === true;]]>
     </results>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.2"/>
+<category name="Utiliários"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="jQuery.grep" return="Array">
   <desc>Finds the elements of an array which satisfy a filter function. The original array is not affected.</desc>
@@ -13297,8 +13297,8 @@ $("span").text(arr.join(", "));
 },true);]]></code>
   <results><![CDATA[[0] ]]></results>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="jQuery.extend" return="Object">
   <signature>
@@ -13392,8 +13392,8 @@ var settings = $.extend(empty, defaults, options);]]></code>
     <results><![CDATA[settings == { validate: true, limit: 5, name: "bar" }
 empty == { validate: true, limit: 5, name: "bar" }]]></results>
   </example>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="jQuery.each" return="Object">
   <signature>
@@ -13471,8 +13471,8 @@ $.each(map, function(key, value) {
    alert( "Key: " + k + ", Value: " + v );
  });]]></code>
 </example>
-<category name="Utilities"/>
-<category name="Version 1.0"/>
+<category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='property' name="jQuery.boxModel" return="Boolean">
                 <signature><added>1.0</added></signature>
@@ -13498,8 +13498,8 @@ $.each(map, function(key, value) {
                     <code><![CDATA[$.boxModel]]></code>
                     <results><![CDATA[false]]></results>
                 </example>
-            <category name="Utilities"/>
-<category name="Version 1.0"/>
+            <category name="Utiliários"/>
+<category name="Versão 1.0"/>
 </entry>
 
 <entry type='method' name="scrollTop" return="Integer">
@@ -13521,8 +13521,8 @@ $("p:last").text( "scrollTop:" + p.scrollTop() );
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 <entry type='method' name="scrollTop" return="jQuery">
   <signature>
@@ -13554,8 +13554,8 @@ overflow:auto;
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2.6"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2.6"/>
 </entry>
 
 <entry type='property' name="jQuery.support" return="Object">
@@ -13622,10 +13622,10 @@ overflow:auto;
                     <code><![CDATA[jQuery.support.boxModel]]></code>
                     <results><![CDATA[false]]></results>
                 </example>
-            <category name="Properties of the Global jQuery Object"/>
-<category name="Utilities"/>
-<category name="Version 1.3"/>
-<category name="Version 1.5.1"/>
+            <category name="Propriedades do Objeto Global jQuery"/>
+<category name="Utiliários"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.5.1"/>
 </entry>
             <entry type='method' name="position" return="Object">
 				<signature>
@@ -13655,8 +13655,8 @@ $("p:last").text( "left: " + position.left + ", top: " + position.top );
                 </example>
             <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2"/>
 </entry>
 
   <entry type='method' name="offset" return="Object">
@@ -13709,9 +13709,9 @@ div.abs { width:50px; height:50px; position:absolute;
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="offset" return="jQuery">
   <signature>
@@ -13736,9 +13736,9 @@ div.abs { width:50px; height:50px; position:absolute;
   </example>
 <category name="CSS"/>
 <category name="Offset"/>
-<category name="Style Properties"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
 
 
@@ -13780,9 +13780,9 @@ div { width:60px; height:60px; margin:5px; float:left; }
 <div style="background-color:#f11;"></div>]]></html>
     </example>
   <category name="CSS"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
   <entry type='method' name="css" return="jQuery">
     <signature>
@@ -13906,9 +13906,9 @@ div { width:60px; height:60px; margin:5px; float:left; }
 ]]></html>
   </example>
 <category name="CSS"/>
-<category name="Style Properties"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Propriedades de Estilo"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
 <entry type='method' name="unwrap" return="jQuery">
@@ -13934,9 +13934,9 @@ $("button").toggle(function(){
 <p>cruel</p>
 <p>World</p>]]></html>
                 </example>
-            <category name="DOM Insertion, Around"/>
-<category name="DOM Removal"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, ao Redor"/>
+<category name="Remoção no DOM"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="detach" return="jQuery">
 				<signature>
@@ -13968,8 +13968,8 @@ $("button").toggle(function(){
   <p>you?</p>
   <button>Attach/detach paragraphs</button>]]></html>
                 </example>
-            <category name="DOM Removal"/>
-<category name="Version 1.4"/>
+            <category name="Remoção no DOM"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="clone" return="jQuery">
 <signature>
@@ -14031,9 +14031,9 @@ $("button").toggle(function(){
   <b>Hello</b><p>, how are you?</p>
 ]]></html>
 </example>
-<category name="Copying"/>
-<category name="Version 1.0"/>
-<category name="Version 1.5"/>
+<category name="Copiando"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.5"/>
 </entry>
             <entry type='method' name="remove" return="jQuery">
 				<signature>
@@ -14092,8 +14092,8 @@ $("button").toggle(function(){
 
   <button>Call remove(":contains('Hello')") on paragraphs</button>]]></html>
                 </example>
-            <category name="DOM Removal"/>
-<category name="Version 1.0"/>
+            <category name="Remoção no DOM"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="empty" return="jQuery">
   <signature>
@@ -14131,8 +14131,8 @@ $("button").toggle(function(){
 
 <button>Call empty() on above paragraph</button>]]></html>
   </example>
-<category name="DOM Removal"/>
-<category name="Version 1.0"/>
+<category name="Remoção no DOM"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="replaceAll" return="jQuery">
                 <signature><added>1.2</added>
@@ -14170,8 +14170,8 @@ $("button").toggle(function(){
   <p>cruel</p>
   <p>World</p>]]></html>
                 </example>
-            <category name="DOM Replacement"/>
-<category name="Version 1.2"/>
+            <category name="Troca no DOM"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="replaceWith" return="jQuery">
   <signature>
@@ -14313,9 +14313,9 @@ $('button').bind("click", function() {
 </div>
 ]]></html>
 </example>
-<category name="DOM Replacement"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+<category name="Troca no DOM"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
 
             <entry type='method' name="wrapInner" return="jQuery">
@@ -14409,9 +14409,9 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
   <p>cruel</p>
   <p>World</p>]]></html>
                 </example>
-            <category name="DOM Insertion, Around"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, ao Redor"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="wrapAll" return="jQuery">
 				<signature>
@@ -14487,9 +14487,9 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
   <p>World</p>
   <div class="doublediv"><div></div></div>]]></html>
                 </example>
-            <category name="DOM Insertion, Around"/>
-<category name="Version 1.2"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, ao Redor"/>
+<category name="Versão 1.2"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="wrap" return="jQuery">
   <signature>
@@ -14587,9 +14587,9 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
   <p>World</p>
   <div class="doublediv"><div></div></div>]]></html>
                 </example>
-            <category name="DOM Insertion, Around"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, ao Redor"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="insertBefore" return="jQuery">
 				<signature>
@@ -14631,8 +14631,8 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
                     <css><![CDATA[#foo { background:yellow; }]]></css>
                     <html><![CDATA[<div id="foo">FOO!</div><p>I would like to say: </p>]]></html>
                 </example>
-            <category name="DOM Insertion, Outside"/>
-<category name="Version 1.0"/>
+            <category name="Inserção no DOM, Fora"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="before" return="jQuery">
 				<signature>
@@ -14710,9 +14710,9 @@ $('p').first().before($newdiv1, [newdiv2, existingdiv1]);
                     <css><![CDATA[p { background:yellow; }]]></css>
                     <html><![CDATA[<p> is what I said...</p><b>Hello</b>]]></html>
                 </example>
-            <category name="DOM Insertion, Outside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, Fora"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="insertAfter" return="jQuery">
 				<signature>
@@ -14754,8 +14754,8 @@ $('p').first().before($newdiv1, [newdiv2, existingdiv1]);
                     <css><![CDATA[#foo { background:yellow; }]]></css>
                     <html><![CDATA[<p> is what I said... </p><div id="foo">FOO!</div>]]></html>
                 </example>
-            <category name="DOM Insertion, Outside"/>
-<category name="Version 1.0"/>
+            <category name="Inserção no DOM, Fora"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="after" return="jQuery">
   <signature>
@@ -14849,9 +14849,9 @@ $('p').first().after($newdiv1, [newdiv2, existingdiv1]);
       <css><![CDATA[p { background:yellow; }]]></css>
       <html><![CDATA[<b>Hello</b><p>I would like to say: </p>]]></html>
   </example>
-<category name="DOM Insertion, Outside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Inserção no DOM, Fora"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="prependTo" return="jQuery">
 				<signature>
@@ -14899,8 +14899,8 @@ $('p').first().after($newdiv1, [newdiv2, existingdiv1]);
 
   <span>I have something to say... </span>]]></html>
                 </example>
-            <category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
+            <category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="prepend" return="jQuery">
   <signature>
@@ -14982,9 +14982,9 @@ $('body').prepend($newdiv1, [newdiv2, existingdiv1]);
     <css><![CDATA[p { background:yellow; }]]></css>
     <html><![CDATA[<p> is what was said.</p><b>Hello</b>]]></html>
 </example>
-<category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="appendTo" return="jQuery">
 				<signature>
@@ -15037,8 +15037,8 @@ $('body').prepend($newdiv1, [newdiv2, existingdiv1]);
 
   <div id="foo">FOO! </div>]]></html>
                 </example>
-            <category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
+            <category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
 </entry>
 <entry type='method' name="append" return="jQuery">
   <signature>
@@ -15136,9 +15136,9 @@ $('body').append($newdiv1, [newdiv2, existingdiv1]);
 ]]></css>
   <html><![CDATA[<strong>Hello world!!!</strong><p>I would like to say: </p>]]></html>
 </example>
-<category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
   <entry type='method' name="val" return="String, Array">
@@ -15202,11 +15202,11 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   <html><![CDATA[<input type="text" value="some text"/>
   <p></p>]]></html>
     </example>
-<category name="Attributes"/>
-<category name="Forms"/>
-<category name="General Attributes"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Atributos"/>
+<category name="Formulários"/>
+<category name="Atributos em Geral"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="val" return="jQuery">
   <signature>
@@ -15296,11 +15296,11 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   <input type="radio"  name="r" value="radio1"/> radio1
   <input type="radio"  name="r" value="radio2"/> radio2]]></html>
                 </example>
-            <category name="Attributes"/>
-<category name="Forms"/>
-<category name="General Attributes"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Atributos"/>
+<category name="Formulários"/>
+<category name="Atributos em Geral"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
 
@@ -15339,9 +15339,9 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
 
   <p></p>]]></html>
   </example>
-<category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="text" return="jQuery">
   <signature>
@@ -15396,9 +15396,9 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   ]]></css>
                     <html><![CDATA[<p>Test Paragraph.</p>]]></html>
                 </example>
-            <category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
 
@@ -15445,10 +15445,10 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
     This <button name="nada">button</button> does nothing.
   </p>]]></html>
                 </example>
-<category name="Attributes"/>
-<category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Atributos"/>
+<category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 <entry type='method' name="html" return="jQuery">
   <signature>
@@ -15516,10 +15516,10 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   <div></div>
   <div></div>]]></html>
                 </example>
-            <category name="Attributes"/>
-<category name="DOM Insertion, Inside"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+            <category name="Atributos"/>
+<category name="Inserção no DOM, Dentro"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
             <entry type='method' name="map" return="jQuery">
@@ -15650,8 +15650,8 @@ input { clear:left}
 ]]></html>
                 </example>
                
-            <category name="Filtering"/>
-<category name="Version 1.2"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="is" return="Boolean">
   <signature>
@@ -15738,8 +15738,8 @@ input { clear:left}
 
   <div></div>]]></html>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.0"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.0"/>
 </entry>
             <entry type='method' name="eq" return="jQuery">
               <signature>
@@ -15801,8 +15801,8 @@ input { clear:left}
   <div></div>
   <div></div>]]></html>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.1.2"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.1.2"/>
 </entry>
             <entry type='method' name="filter" return="jQuery">
                 <signature>
@@ -15931,8 +15931,8 @@ $('li').filter(function(index) {
    return $("ol", this).length == 0;
  });]]></code>
                 </example>
-            <category name="Filtering"/>
-<category name="Version 1.0"/>
+            <category name="Filtrando"/>
+<category name="Versão 1.0"/>
 </entry>
 
   <entry type='method' name="toggleClass" return="jQuery">
@@ -16037,12 +16037,12 @@ $("p").each(function() {
 
   <p class="blue">paragraphs (<span>clicks: 0</span>)</p>]]></html>
                 </example>
-            <category name="Attributes"/>
-<category name="Class Attribute"/>
+            <category name="Atributos"/>
+<category name="Atributo Class"/>
 <category name="CSS"/>
-<category name="Version 1.0"/>
-<category name="Version 1.3"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.3"/>
+<category name="Versão 1.4"/>
 </entry>
 
             <entry type='method' name="removeClass" return="jQuery">
@@ -16122,11 +16122,11 @@ $("p").each(function() {
 
   <p class="blue under">Goodbye</p>]]></html>
                 </example>
-            <category name="Attributes"/>
-<category name="Class Attribute"/>
+            <category name="Atributos"/>
+<category name="Atributo Class"/>
 <category name="CSS"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
             <entry type='method' name="hasClass" return="Boolean">
                 <signature>
@@ -16164,10 +16164,10 @@ $("div#result3").append($("p").hasClass("selected").toString());
   <div id="result2">Second paragraph has selected class: </div>
   <div id="result3">At least one paragraph has selected class: </div>]]></html>
                 </example>
-            <category name="Attributes"/>
-<category name="Class Attribute"/>
+            <category name="Atributos"/>
+<category name="Atributo Class"/>
 <category name="CSS"/>
-<category name="Version 1.2"/>
+<category name="Versão 1.2"/>
 </entry>
 <entry type='method' name="removeAttr" return="jQuery">
   <signature>
@@ -16191,10 +16191,10 @@ $("button").click(function () {
       <html><![CDATA[<button>Enable</button>
 <input type="text" disabled="disabled" value="can't edit this" />]]></html>
     </example>
-  <category name="Attributes"/>
-<category name="General Attributes"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+  <category name="Atributos"/>
+<category name="Atributos em Geral"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>
 
 <entry type='method' name="attr" return="String">
@@ -16233,10 +16233,10 @@ var title = $("em").attr("title");
   The title of the emphasis is:<div></div>
 ]]></html>
 </example>
-<category name="Attributes"/>
-<category name="General Attributes"/>
-<category name="Version 1.0"/>
-<category name="Version 1.1"/>
+<category name="Atributos"/>
+<category name="Atributos em Geral"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.1"/>
 </entry>
 <entry type='method' name="attr" return="jQuery">
   <signature>
@@ -16357,10 +16357,10 @@ $("img").attr("src", function() {
 <img title="hat.gif"/>
 ]]></html>
   </example>
-  <category name="Attributes"/>
-<category name="General Attributes"/>
-<category name="Version 1.0"/>
-<category name="Version 1.1"/>
+  <category name="Atributos"/>
+<category name="Atributos em Geral"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.1"/>
 </entry>
 
 <entry type='method' name="addClass" return="jQuery">
@@ -16448,11 +16448,11 @@ $("img").attr("src", function() {
  <p>There are zero green divs</p>
 ]]></html>
 </example>
-<category name="Attributes"/>
-<category name="Class Attribute"/>
+<category name="Atributos"/>
+<category name="Atributo Class"/>
 <category name="CSS"/>
-<category name="Version 1.0"/>
-<category name="Version 1.4"/>
+<category name="Versão 1.0"/>
+<category name="Versão 1.4"/>
 </entry>  </entries>
     <plugins>
     <entry type='method' name="jQuery.tmpl" return="jQuery" plugin="jQuery Templates">
