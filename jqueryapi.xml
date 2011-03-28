@@ -19,7 +19,7 @@
       <category name="Deslizamento"/>
     </category>
     <category name="Eventos">
-      <category name="Eventos do Browser"/>
+      <category name="Eventos do Navegador"/>
       <category name="Carregamento do Documento"/>
       <category name="Anexação de Manipudor de Evento"/>
       <category name="Objeto Event"/>
@@ -92,7 +92,7 @@
     <entry type='método' name="jQuery.hasData" return="Boolean">
 	<signature>
 		<added>1.5</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 			<desc>Uma checagem se há dados em um elemento DOM.</desc>
 		</argument>
 	</signature>
@@ -387,7 +387,7 @@ $( '#anotherElement' ).append( $title.text() );
 <entry name="deferred.resolveWith" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="context" type="Object">
+         <argument name="context" type="Objeto">
            <desc>
              Context passed to the doneCallbacks as the <code>this</code> object.
            </desc>
@@ -409,7 +409,7 @@ $( '#anotherElement' ).append( $title.text() );
 <entry name="deferred.rejectWith" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="context" type="Object">
+         <argument name="context" type="Objeto">
            <desc>
              Context passed to the failCallbacks as the <code>this</code> object.
            </desc>
@@ -503,7 +503,7 @@ $.get("test.php").then(
 <entry name="deferred.reject" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="args" type="Object">
+         <argument name="args" type="Objeto">
            <desc>
              Optional arguments that are passed to the failCallbacks.
            </desc>
@@ -544,7 +544,7 @@ $.get("test.php").then(
 <entry name="deferred.resolve" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="args" type="Object">
+         <argument name="args" type="Objeto">
            <desc>
              Optional arguments that are passed to the doneCallbacks.
            </desc>
@@ -696,7 +696,7 @@ $("button:last").click(function () {
   <entry type='método' name="jQuery.type" return="String">
                 <signature>
                   <added>1.4.3</added>
-                    <argument name="obj" type="Object">
+                    <argument name="obj" type="Objeto">
                        <desc>Object to get the internal JavaScript [[Class]] of.</desc>
                     </argument>
                 </signature>
@@ -727,7 +727,7 @@ $("button:last").click(function () {
   <entry type='método' name="jQuery.isWindow" return="boolean">
                 <signature>
                   <added>1.4.3</added>
-                    <argument name="obj" type="Object">
+                    <argument name="obj" type="Objeto">
                        <desc>Object to test whether or not it is a window.</desc>
                     </argument>
                 </signature>
@@ -977,7 +977,7 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
     <argument name="eventType" type="String">
       <desc>A string containing one or more space-separated JavaScript event types, such as "click" or "keydown," or custom event names.</desc>
     </argument>
-    <argument name="eventData" type="Object">
+    <argument name="eventData" type="Objeto">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler" type="Função">
@@ -1106,13 +1106,13 @@ alert( obj.name === "John" );]]></code>
       <argument name="function" type="Função">
         <desc>The function whose context will be changed.</desc>
       </argument>
-      <argument name="context" type="Object">
+      <argument name="context" type="Objeto">
         <desc>The object to which the context (<code>this</code>) of the function should be set.</desc>
       </argument>
     </signature>
     <signature>
       <added>1.4</added>
-      <argument name="context" type="Object">
+      <argument name="context" type="Objeto">
         <desc>The object to which the context of the function should be set.</desc>
       </argument>
       <argument name="name" type="String">
@@ -1171,7 +1171,7 @@ alert( obj.name === "John" );]]></code>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -1229,7 +1229,7 @@ $("p").focusout(function() {
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -1264,7 +1264,7 @@ $("p").focusout(function() {
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="contained" type="Element">
+    <argument name="contained" type="Elemento">
       <desc>A DOM element to match elements against.</desc>
     </argument>
   </signature>
@@ -1310,10 +1310,10 @@ $("p").focusout(function() {
             <entry type='método' name="jQuery.contains" return="Boolean">
                 <signature>
                   <added>1.4</added>
-                  <argument name="container" type="Element">
+                  <argument name="container" type="Elemento">
                     <desc>The DOM element that may contain the other element.</desc>
                   </argument>
-                  <argument name="contained" type="Element">
+                  <argument name="contained" type="Elemento">
                     <desc>The DOM node that may be contained by the other element.</desc>
                   </argument>
                 </signature>
@@ -1378,7 +1378,7 @@ div { width: 60px; height: 60px; float: left; }
 <entry type='método' name="parentsUntil" return="jQuery">
   <signature>
     <added>1.4</added>
-    <argument name="selector" optional="true" type="Selector">
+    <argument name="selector" optional="true" type="Seletor">
         <desc>A string containing a selector expression to indicate where to stop matching ancestor elements.</desc>
     </argument>
   </signature>
@@ -1442,7 +1442,7 @@ div { width: 60px; height: 60px; float: left; }
 <entry type='método' name="prevUntil" return="jQuery">
   <signature>
     <added>1.4</added>
-    <argument name="selector" optional="true" type="Selector">
+    <argument name="selector" optional="true" type="Seletor">
         <desc>A string containing a selector expression to indicate where to stop matching preceding sibling elements.</desc>
     </argument>
   </signature>
@@ -1502,7 +1502,7 @@ div { width: 60px; height: 60px; float: left; }
 <entry type='método' name="nextUntil" return="jQuery">
   <signature>
     <added>1.4</added>
-    <argument name="selector" optional="true" type="Selector">
+    <argument name="selector" optional="true" type="Seletor">
         <desc>A string containing a selector expression to indicate where to stop matching following sibling elements.</desc>
     </argument>
   </signature>
@@ -2147,7 +2147,7 @@ test();
             <entry type='método' name="jQuery.isXMLDoc" return="Boolean">
                 <signature>
                   <added>1.1.4</added>
-                  <argument name="node" type="Element">
+                  <argument name="node" type="Elemento">
                     <desc>The DOM node that will be checked to see if it's in an XML document.</desc>
                   </argument>
                 </signature>
@@ -2164,7 +2164,7 @@ jQuery.isXMLDoc(document.body) // false]]></code>
 <entry type='método' name="jQuery.removeData" return="jQuery">
 	<signature>
 		<added>1.2.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 			<desc>A DOM element from which to remove data.</desc>
 		</argument>
 
@@ -2203,13 +2203,13 @@ $("span:eq(3)").text("" + jQuery.data(div, "test2"));]]></code>
 <entry type='método' name="jQuery.data" return="jQuery">
 	<signature>
 		<added>1.2.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 			<desc>The DOM element to associate with the data.</desc>
 		</argument>
 		<argument name="key" type="String">
 			<desc>A string naming the piece of data to set.</desc>
 		</argument>
-		<argument name="value" type="Object">
+		<argument name="value" type="Objeto">
 			<desc>The new data value.</desc>
 		</argument>
 	</signature>
@@ -2246,7 +2246,7 @@ jQuery.data(document.body, 'bar', 'test');
 <entry type='método' name="jQuery.data" return="Objeto">
 	<signature>
 		<added>1.2.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 	<desc>The DOM element to query for the data.</desc>
 		</argument>
 		<argument name="key" type="String">
@@ -2255,7 +2255,7 @@ jQuery.data(document.body, 'bar', 'test');
 	</signature>
 	<signature>
 		<added>1.4</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 	<desc>The DOM element to query for the data.</desc>
 		</argument>
 	</signature>
@@ -2319,7 +2319,7 @@ span { color:red; }
 <entry type='método' name="jQuery.dequeue" return="jQuery">
   <signature>
     <added>1.3</added>
-    <argument name="element" type="Element">
+    <argument name="element" type="Elemento">
       <desc>A DOM element from which to remove and execute a queued function.</desc>
     </argument>
 
@@ -2355,7 +2355,7 @@ span { color:red; }
 <entry type='método' name="jQuery.queue" return="Array">
 	<signature>
 		<added>1.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 			<desc>A DOM element to inspect for an attached queue.</desc>
 		</argument>
 		<argument name="queueName" optional="true" type="String">
@@ -2397,7 +2397,7 @@ span { color:red; }
 <entry type='método' name="jQuery.queue" return="jQuery">
 	<signature>
 		<added>1.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 		  <desc>A DOM element where the array of queued functions is attached.</desc>
 		</argument>
 		<argument name="queueName" type="String">
@@ -2409,7 +2409,7 @@ span { color:red; }
 	</signature>
 	<signature>
 		<added>1.3</added>
-		<argument name="element" type="Element">
+		<argument name="element" type="Elemento">
 		  <desc>A DOM element on which to add a queued function.</desc>
 		</argument>
 		<argument name="queueName" type="String">
@@ -2570,7 +2570,7 @@ div.newcolor { background:blue; }
             <entry type='método' name="jQuery.isEmptyObject" return="Boolean">
                 <signature>
                   <added>1.4</added>
-                  <argument name="object" type="Object">
+                  <argument name="object" type="Objeto">
                     <desc>The object that will be checked to see if it's empty.</desc>
                   </argument>
                 </signature>
@@ -2587,7 +2587,7 @@ jQuery.isEmptyObject({ foo: "bar" }) // false]]></code>
             <entry type='método' name="jQuery.isPlainObject" return="Boolean">
                 <signature>
                   <added>1.4</added>
-                  <argument name="object" type="Object">
+                  <argument name="object" type="Objeto">
                     <desc>The object that will be checked to see if it's a plain object.</desc>
                   </argument>
                 </signature>
@@ -2610,7 +2610,7 @@ jQuery.isPlainObject("test") // false]]></code>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -2699,7 +2699,7 @@ input { display: block; margin-bottom: .25em; }
           
               <signature>
                 <added>1.4</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                   <desc>A selector representing a jQuery collection in which to look for an element.</desc>
                 </argument>
               </signature>
@@ -2883,13 +2883,13 @@ $('div').html('Index: ' + foobar);]]></code>
     <argument name="key" type="String">
       <desc>A string naming the piece of data to set.</desc>
     </argument>
-    <argument name="value" type="Object">
+    <argument name="value" type="Objeto">
       <desc>The new data value; it can be any Javascript type including Array or Object.</desc>
     </argument>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="obj" type="Object">
+    <argument name="obj" type="Objeto">
       <desc>An object of key-value pairs of data to update.</desc>
     </argument>
   </signature>
@@ -4128,13 +4128,13 @@ jQuery("div > p").hide();]]></results>
             <entry type='selector'  name="attributeMultiple" return="">
                 <sample>[attributeFilter1][attributeFilter2][attributeFilterN]</sample>
                  <signature><added>1.0</added>
-                <argument name="attributeFilter1" type="Selector">
+                <argument name="attributeFilter1" type="Seletor">
                     <desc>An attribute filter.</desc>
                 </argument>
-                <argument name="attributeFilter2" type="Selector">
+                <argument name="attributeFilter2" type="Seletor">
                     <desc>Another attribute filter, reducing the selection even more</desc>
                 </argument>
-                <argument name="attributeFilterN" optional="true" type="Selector">
+                <argument name="attributeFilterN" optional="true" type="Seletor">
                     <desc>As many more attribute filters as necessary</desc>
                 </argument></signature>
                 <desc>Matches elements that match all of the specified attribute filters.</desc>
@@ -4428,7 +4428,7 @@ jQuery("div > p").hide();]]></results>
             <entry type='selector' name="has" return="">
                 <sample>:has(selector)</sample>
                  <signature><added>1.1.4</added>
-                    <argument name="selector" type="Selector">
+                    <argument name="selector" type="Seletor">
                         <desc>Any selector.</desc>
                     </argument>
                 </signature>
@@ -4687,7 +4687,7 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <sample>:not(selector)</sample>
     <signature>
       <added>1.0</added> 
-      <argument name="selector" type="Selector">
+      <argument name="selector" type="Seletor">
           <desc>A selector with which to filter by.</desc>
       </argument>
     </signature>
@@ -4764,10 +4764,10 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <sample>prev ~ siblings</sample>
     <signature>
       <added>1.0</added>
-      <argument name="prev" type="Selector">
+      <argument name="prev" type="Seletor">
           <desc>Any valid selector.</desc>
       </argument>
-      <argument name="siblings" type="Selector">
+      <argument name="siblings" type="Seletor">
           <desc>A selector to filter elements that are the following siblings of the first selector.</desc>
       </argument>
     </signature>
@@ -4809,10 +4809,10 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
                 <sample>prev + next</sample>
                  <signature>
                    <added>1.0</added>
-                   <argument name="prev" type="Selector">
+                   <argument name="prev" type="Seletor">
                        <desc>Any valid selector.</desc>
                    </argument>
-                <argument name="next" type="Selector">
+                <argument name="next" type="Seletor">
                     <desc>A selector to match the element that is next to the first selector.</desc>
                 </argument>
                   </signature>
@@ -4841,10 +4841,10 @@ $("div:contains('John')").css("text-decoration", "underline");]]>
     <sample>parent &gt; child</sample>
    <signature>
      <added>1.0</added>
-     <argument name="parent" type="Selector">
+     <argument name="parent" type="Seletor">
          <desc>Any valid selector.</desc>
      </argument>
-     <argument name="child" type="Selector">
+     <argument name="child" type="Seletor">
          <desc>A selector to filter the child elements.</desc>
      </argument>
     </signature>
@@ -4875,10 +4875,10 @@ body { font-size:14px; }
     <sample>ancestor descendant</sample>
     <signature> 
       <added>1.0</added>
-      <argument name="ancestor" type="Selector">
+      <argument name="ancestor" type="Seletor">
           <desc>Any valid selector.</desc>
       </argument>
-      <argument name="descendant" type="Selector">
+      <argument name="descendant" type="Seletor">
           <desc>A selector to filter the descendant elements.</desc>
       </argument>
     </signature>
@@ -4915,13 +4915,13 @@ body { font-size:14px; }
     <sample>selector1, selector2, selectorN</sample>
      <signature>
         <added>1.0</added>
-        <argument name="selector1" type="Selector">
+        <argument name="selector1" type="Seletor">
           <desc>Any valid selector.</desc>
         </argument>
-        <argument name="selector2" type="Selector">
+        <argument name="selector2" type="Seletor">
           <desc>Another valid selector.</desc>
         </argument>
-        <argument name="selectorN" optional="true" type="Selector">
+        <argument name="selectorN" optional="true" type="Seletor">
           <desc>As many more valid selectors as you like.</desc>
         </argument>
       </signature>
@@ -5177,7 +5177,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5257,7 +5257,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5479,7 +5479,7 @@ $('#foo').queue(function() {
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5572,7 +5572,7 @@ input { display: block; margin-bottom: .25em; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5669,7 +5669,7 @@ input { display: block; margin-bottom: .25em; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5760,7 +5760,7 @@ input { display: block; margin-bottom: .25em; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5835,7 +5835,7 @@ input { display: block; margin-bottom: .25em; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5920,7 +5920,7 @@ input { display: block; margin-bottom: .25em; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -5976,7 +5976,7 @@ $('#target').blur(function() {
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6056,7 +6056,7 @@ $('#target').blur(function() {
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6267,7 +6267,7 @@ $("li")
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6369,7 +6369,7 @@ padding:0;
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6472,7 +6472,7 @@ padding:0;
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6573,7 +6573,7 @@ padding:0;
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6670,7 +6670,7 @@ p { line-height:1em; margin:0; padding:0; }
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6754,7 +6754,7 @@ For example, consider the HTML:</p>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6835,7 +6835,7 @@ For example, consider the HTML:</p>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6898,7 +6898,7 @@ For example, consider the HTML:</p>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -6963,7 +6963,7 @@ For example, consider the HTML:</p>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -7013,7 +7013,7 @@ For example, consider the HTML:</p>
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -7054,7 +7054,7 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -7360,7 +7360,7 @@ if ( $.browser.msie ) {
     <argument name="eventType" type="String">
       <desc>A string containing a JavaScript event type, such as "click" or "keydown." As of jQuery 1.4 the string can contain multiple, space-separated event types or custom event names, as well.</desc>
     </argument>
-    <argument name="eventData" type="Object">
+    <argument name="eventData" type="Objeto">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler" type="Função">
@@ -7369,7 +7369,7 @@ if ( $.browser.msie ) {
   </signature>
   <signature>
     <added>1.4.3</added>
-    <argument name="events" type="Object">
+    <argument name="events" type="Objeto">
       <desc>A map of one or more JavaScript event types and functions to execute for them.</desc>
     </argument>
   </signature>
@@ -7714,7 +7714,7 @@ pass:"bar"
     <argument name="eventType" type="String">
       <desc>A string containing one or more JavaScript event types, such as "click" or "submit," or custom event names.</desc>
     </argument>
-    <argument name="eventData" type="Object" optional="true">
+    <argument name="eventData" type="Objeto" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
     <argument name="handler(eventObject)" type="Função">
@@ -8228,7 +8228,7 @@ alert( $(this).text() );
   </signature>
   <signature>
     <added>1.0</added>
-    <argument name="event" type="Object">
+    <argument name="event" type="Objeto">
       <desc>A JavaScript event object as passed to an event handler.</desc>
     </argument>
   </signature>
@@ -8339,7 +8339,7 @@ $("p").unbind("click", foo); // ... foo will no longer be called.]]></code>
   <argument name="eventType" type="String">
     <desc>A string containing one or more JavaScript event types, such as "click" or "submit," or custom event names.</desc>
   </argument>
-  <argument name="eventData" type="Object" optional="true">
+  <argument name="eventData" type="Objeto" optional="true">
     <desc>A map of data that will be passed to the event handler.</desc>
   </argument>
   <argument name="handler(eventObject)" type="Função">
@@ -8351,7 +8351,7 @@ $("p").unbind("click", foo); // ... foo will no longer be called.]]></code>
   <argument name="eventType" type="String">
     <desc>A string containing one or more JavaScript event types, such as "click" or "submit," or custom event names.</desc>
   </argument>
-  <argument name="eventData" type="Object" optional="true">
+  <argument name="eventData" type="Objeto" optional="true">
     <desc>A map of data that will be passed to the event handler.</desc>
   </argument>
   <argument name="false" type="Boolean">
@@ -8360,7 +8360,7 @@ $("p").unbind("click", foo); // ... foo will no longer be called.]]></code>
 </signature>
 <signature>
   <added>1.4</added>
-  <argument name="events" type="Object">
+  <argument name="events" type="Objeto">
     <desc>A map of one or more JavaScript event types and functions to execute for them.</desc>
   </argument>
 </signature>
@@ -8726,7 +8726,7 @@ span { color:blue; }
     </signature>
     <signature>
       <added>1.0</added>
-      <argument name="element" type="Element">
+      <argument name="element" type="Elemento">
         <desc>A DOM element to wrap in a jQuery object.</desc>
       </argument>
     </signature>
@@ -8738,7 +8738,7 @@ span { color:blue; }
     </signature>
     <signature>
       <added>1.0</added>
-      <argument name="jQuery object" type="Object">
+      <argument name="jQuery object" type="Objeto">
         <desc>An existing jQuery object to clone.</desc>
       </argument>
     </signature>
@@ -8820,7 +8820,7 @@ $.post('url.xml', function(data) {
       <argument name="html" type="String">
           <desc>A string defining a single, standalone, HTML element (e.g. &lt;div/&gt; or &lt;div&gt;&lt;/div&gt;).</desc>
       </argument>
-      <argument name="props" type="Object">
+      <argument name="props" type="Objeto">
           <desc>An map of attributes, events, and methods to call on the newly-created element.</desc>
       </argument>
     </signature>
@@ -9094,7 +9094,7 @@ $('ul.first').find('.foo')
             <entry type='método' name="siblings" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -9485,7 +9485,7 @@ div {
             <entry type='método' name="prevAll" return="jQuery">
               <signature>
                 <added>1.2</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -9525,7 +9525,7 @@ div {
             <entry type='método' name="prev" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -9853,7 +9853,7 @@ button { float:left; margin:5px 10px 5px 0; }
 <entry type='método' name="parents" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="selector" optional="true" type="Selector">
+    <argument name="selector" optional="true" type="Seletor">
         <desc>A string containing a selector expression to match elements against.</desc>
     </argument>
   </signature>
@@ -10053,7 +10053,7 @@ $("span").click(function () {
             <entry type='método' name="parent" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -10599,7 +10599,7 @@ $("span").click(function () {
             <entry type='método' name="next" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -10745,7 +10745,7 @@ margin:10px; }
             <entry type='método' name="find" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -10925,16 +10925,16 @@ $('.container').contents().filter(function() {
             <entry type='método' name="closest" return="jQuery">
               <signature>
                 <added>1.3</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
               <signature>
                 <added>1.4</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
-                <argument name="context" optional="true" type="Element">
+                <argument name="context" optional="true" type="Elemento">
                   <desc>A DOM element within which a matching element may be found. If no context is passed in then the context of the jQuery set will be used instead.</desc>
                 </argument>
               </signature>
@@ -11028,7 +11028,7 @@ $('li.item-a').closest('#one', listItemII)
       <argument name="selectors" type="Array">
         <desc>An array or string containing a selector expression to match elements against (can also be a jQuery object).</desc>
       </argument>
-      <argument name="context" optional="true" type="Element">
+      <argument name="context" optional="true" type="Elemento">
         <desc>A DOM element within which a matching element may be found. If no context is passed in then the context of the jQuery set will be used instead.</desc>
       </argument>
     </signature>
@@ -11366,7 +11366,7 @@ alert("The last 25 entries in the feed have been loaded");
       <option default="'application/x-www-form-urlencoded'" name="contentType" type="String">
         <desc>When sending data to the server, use this content-type. Default is "application/x-www-form-urlencoded", which is fine for most cases. If you explicitly pass in a content-type to <code>$.ajax()</code> then it'll always be sent to the server (even if no data is sent). Data will always be transmitted to the server using UTF-8 charset; you must decode this appropriately on the server side.</desc>
       </option>
-      <option name="context" type="Object">
+      <option name="context" type="Objeto">
         <desc>This object will be made the context of all Ajax-related callbacks. For example specifying a DOM element as the context will make that the context for the <code>complete</code> callback of a request, like so: <pre>$.ajax({
   url: "test.html",
   context: document.body,
@@ -11667,7 +11667,7 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
             <entry type='método' name="children" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" optional="true" type="Selector">
+                <argument name="selector" optional="true" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -11825,7 +11825,7 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
             <entry type='método' name="add" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match additional elements against.</desc>
                 </argument>
               </signature>
@@ -11843,10 +11843,10 @@ option to <code>false</code>, the automatic conversion of data to strings is pre
               </signature>
               <signature>
                 <added>1.4</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match additional elements against.</desc>
                 </argument>
-                <argument name="context" type="Element">
+                <argument name="context" type="Elemento">
                     <desc>The point in the document at which the selector should begin matching; similar to the context argument of the <code>$()</code> method.</desc>
                 </argument>
               </signature>
@@ -11958,7 +11958,7 @@ The value of this property is typically equal to document, as this is the defaul
             <entry type='método' name="not" return="jQuery">
               <signature>
                 <added>1.0</added>
-                <argument name="selector" type="Selector">
+                <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match elements against.</desc>
                 </argument>
               </signature>
@@ -12924,7 +12924,7 @@ alert("'" + str + "' - no longer");
  <entry type='método' name="jQuery.isFunction" return="boolean">
                 <signature>
                    <added>1.2</added>
-                   <argument name="obj" type="Object">
+                   <argument name="obj" type="Objeto">
                        <desc>Object to test whether or not it is a function.</desc>
                     </argument>
                 </signature>
@@ -12973,7 +12973,7 @@ alert("'" + str + "' - no longer");
   <entry type='método' name="jQuery.isArray" return="boolean">
                 <signature>
                   <added>1.3</added>
-                    <argument name="obj" type="Object">
+                    <argument name="obj" type="Objeto">
                        <desc>Object to test whether or not it is an array.</desc>
                     </argument>
                 </signature>
@@ -13198,7 +13198,7 @@ array = $.map(array, function(a, index) {
 <entry type='método' name="jQuery.makeArray" return="Array">
   <signature>
     <added>1.2</added>
-    <argument name="obj" type="Object">
+    <argument name="obj" type="Objeto">
       <desc>Any object to turn into a native Array.</desc>
     </argument>
   </signature>
@@ -13303,13 +13303,13 @@ $("span").text(arr.join(", "));
 <entry type='método' name="jQuery.extend" return="Objeto">
   <signature>
     <added>1.0</added>
-    <argument name="target" type="Object">
+    <argument name="target" type="Objeto">
       <desc> An object that will receive the new properties if additional objects are passed in or that will extend the jQuery namespace if it is the sole argument.</desc>
     </argument>
-    <argument name="object1" type="Object" optional="true">
+    <argument name="object1" type="Objeto" optional="true">
       <desc>An object containing additional properties to merge in.</desc>
     </argument>
-    <argument name="objectN" optional="true" type="Object">
+    <argument name="objectN" optional="true" type="Objeto">
       <desc>Additional objects containing properties to merge in.</desc>
     </argument>    
   </signature>
@@ -13318,13 +13318,13 @@ $("span").text(arr.join(", "));
     <argument name="deep" optional="true" type="Boolean">
       <desc>If true, the merge becomes recursive (aka. deep copy).</desc>
     </argument>
-    <argument name="target" type="Object">
+    <argument name="target" type="Objeto">
       <desc>The object to extend. It will receive the new properties.</desc>
     </argument>
-    <argument name="object1" type="Object">
+    <argument name="object1" type="Objeto">
       <desc>An object containing additional properties to merge in.</desc>
     </argument>
-    <argument name="objectN" optional="true" type="Object">
+    <argument name="objectN" optional="true" type="Objeto">
       <desc>Additional objects containing properties to merge in.</desc>
     </argument>    
   </signature>
@@ -13398,7 +13398,7 @@ empty == { validate: true, limit: 5, name: "bar" }]]></results>
 <entry type='método' name="jQuery.each" return="Objeto">
   <signature>
     <added>1.0</added>
-    <argument name="collection" type="Object">
+    <argument name="collection" type="Objeto">
       <desc>The object or array to iterate over.</desc>
     </argument>
     <argument name="callback(indexInArray, valueOfElement)" type="Função">
@@ -13716,7 +13716,7 @@ div.abs { width:50px; height:50px; position:absolute;
 <entry type='método' name="offset" return="jQuery">
   <signature>
     <added>1.4</added>
-    <argument name="coordinates" type="Object">
+    <argument name="coordinates" type="Objeto">
       <desc>An object containing the properties <code>top</code> and <code>left</code>, which are integers indicating the new top and left coordinates for the elements.</desc>
     </argument>
   </signature>
@@ -13941,7 +13941,7 @@ $("button").toggle(function(){
             <entry type='método' name="detach" return="jQuery">
 				<signature>
                 	<added>1.4</added>
-	                <argument name="selector" optional="true" type="Selector">
+	                <argument name="selector" optional="true" type="Seletor">
 	                    <desc>A selector expression that filters the set of matched elements to be removed.</desc>
 	                </argument>
 				</signature>
@@ -14136,7 +14136,7 @@ $("button").toggle(function(){
 </entry>
             <entry type='método' name="replaceAll" return="jQuery">
                 <signature><added>1.2</added>
-                  <argument name="target" type="Selector">
+                  <argument name="target" type="Seletor">
                     <desc>A selector expression indicating which element(s) to replace.</desc>
                   </argument>
                 </signature>
@@ -15656,7 +15656,7 @@ input { clear:left}
 <entry type='método' name="is" return="Boolean">
   <signature>
     <added>1.0</added>
-    <argument name="selector" type="Selector">
+    <argument name="selector" type="Seletor">
       <desc>A string containing a selector expression to match elements against.</desc>
     </argument>
   </signature>
@@ -15807,7 +15807,7 @@ input { clear:left}
             <entry type='método' name="filter" return="jQuery">
                 <signature>
                   <added>1.0</added>
-                  <argument name="selector" type="Selector">
+                  <argument name="selector" type="Seletor">
                     <desc>A string containing a selector expression to match the current set of elements against.</desc>
                   </argument>
                 </signature>
@@ -15819,13 +15819,13 @@ input { clear:left}
                 </signature>
                 <signature>
                   <added>1.4</added>
-                  <argument name="element" type="Element">
+                  <argument name="element" type="Elemento">
                     <desc>An element to match the current set of elements against.</desc>
                   </argument>
                 </signature>
                 <signature>
                   <added>1.4</added>
-                  <argument name="jQuery object" type="Object">
+                  <argument name="jQuery object" type="Objeto">
                     <desc>An existing jQuery object to match the current set of elements against.</desc>
                   </argument>
                 </signature>
@@ -16464,7 +16464,7 @@ $("img").attr("src", function() {
   <argument name="template" type="String, Element, jQuery">
     <desc>The HTML markup or text to use as a template.</desc>
   </argument>
-  <argument name="data" type="Object" optional="true">
+  <argument name="data" type="Objeto" optional="true">
     <desc>The data to render. This can be any JavaScript type, including Array or Object.</desc>
   </argument>
   <argument name="options" type="Options" optional="true">
@@ -16809,13 +16809,13 @@ $( "#movieTemplate" ).tmpl( movies )
 </download>
 <signature>
 <added>1.4.3</added>
-<argument name="data" type="Object">
+<argument name="data" type="Objeto">
 <desc>The data to to iterate over. This can be any JavaScript type, including Array or Object.</desc>
 </argument>
 <argument name="index" type="String" optional="true">
 <desc>String specifying a variable name for the iteration index. Defaults to "$index".</desc>
 </argument>
-<argument name="value" type="Object" optional="true">
+<argument name="value" type="Objeto" optional="true">
 <desc>String specifying a variable name for the current data value, during the iteration. Defaults to "$value".</desc>
 </argument>
 </signature>
@@ -17693,7 +17693,7 @@ Object.lastName <span id="objLast"></span>
     <argument name="target" type="Element, Object">
       <desc>An object to link changes to.</desc>
     </argument>
-    <argument name="settings" optional="true" type="Object">
+    <argument name="settings" optional="true" type="Objeto">
       <desc>A map describing the fields to link.</desc>
     </argument>
   </signature>
@@ -17895,7 +17895,7 @@ Object.lastName: <span id="objLast"></span>
 <argument name="template" type="String, Element, jQuery">
 <desc>The HTML markup or text to use as a template.</desc>
 </argument>
-<argument name="data" type="Object" optional="true">
+<argument name="data" type="Objeto" optional="true">
 <desc>The data to render. This can be any JavaScript type, including Array or Object.</desc>
 </argument>
 <argument name="options" type="Options" optional="true">
@@ -18369,7 +18369,7 @@ $( "#movieTemplate" ).tmpl( movies, {
 <argument name="template" type="String, Element, jQuery">
 <desc>The HTML markup or text to use as a template.</desc>
 </argument>
-<argument name="data" type="Object" optional="true">
+<argument name="data" type="Objeto" optional="true">
 <desc>The data to render. This can be any JavaScript type, including Array or Object.</desc>
 </argument>
 <argument name="options" type="Options" optional="true">
@@ -19318,7 +19318,7 @@ Click for details:
 </download>
 <signature>
 <added>1.4.3</added>
-<argument name="data" type="Object" optional="true">
+<argument name="data" type="Objeto" optional="true">
 <desc>The data to render. This can be any JavaScript type, including Array or Object.</desc>
 </argument>
 <argument name="options" type="Options" optional="true">
