@@ -431,7 +431,7 @@ $( '#anotherElement' ).append( $title.text() );
 <entry name="deferred.fail" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="failCallbacks" type="Function">
+         <argument name="failCallbacks" type="Função">
            <desc>
              A function, or array of functions, that are called when the Deferred is rejected.
            </desc>
@@ -453,7 +453,7 @@ $.get("test.php")
 <entry name="deferred.done" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="doneCallbacks" type="Function">
+         <argument name="doneCallbacks" type="Função">
            <desc>
              A function, or array of functions, that are called when the Deferred is resolved.
            </desc>
@@ -475,12 +475,12 @@ $.get("test.php").done(
 <entry name="deferred.then" type="method" return="Deferred">
     <signature>
         <added>1.5</added>
-         <argument name="doneCallbacks" type="Function">
+         <argument name="doneCallbacks" type="Função">
            <desc>
              A function, or array of functions, called when the Deferred is resolved.
            </desc>
          </argument>
-         <argument name="failCallbacks" type="Function">
+         <argument name="failCallbacks" type="Função">
            <desc>
              A function, or array of functions, called when the Deferred is rejected.
            </desc>
@@ -657,7 +657,7 @@ $(document).ready(function() {
     <argument name="easing" type="String" optional="true">
       <desc>A string indicating which easing function to use for the transition.</desc>
     </argument>
-    <argument name="callback" type="Function" optional="true">
+    <argument name="callback" type="Função" optional="true">
       <desc>A function to call once the animation is complete.</desc>
     </argument>
   </signature>
@@ -745,13 +745,13 @@ $("button:last").click(function () {
   <desc>Bind two or more handlers to the matched elements, to be executed on alternate clicks.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute every even time the element is clicked.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute every odd time the element is clicked.</desc>
     </argument>
-    <argument name="handler(eventObject)" optional="true" type="Function">
+    <argument name="handler(eventObject)" optional="true" type="Função">
       <desc>Additional handlers to cycle through after clicks.</desc>
     </argument>
   </signature>
@@ -903,7 +903,7 @@ $("button").click(function(event) {
     <argument name="eventType" type="String">
       <desc>A string containing a JavaScript event type, such as "click" or "keydown"</desc>
     </argument>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -965,7 +965,7 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
     <argument name="eventType" type="String">
       <desc>A string containing one or more space-separated JavaScript event types, such as "click" or "keydown," or custom event names.</desc>
     </argument>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -980,7 +980,7 @@ $("body").undelegate("p", "click", foo); // ... foo will no longer be called.]]>
     <argument name="eventData" type="Object">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -1103,7 +1103,7 @@ alert( obj.name === "John" );]]></code>
 <entry type='método' name="jQuery.proxy" return="Function">
     <signature>
       <added>1.4</added>
-      <argument name="function" type="Function">
+      <argument name="function" type="Função">
         <desc>The function whose context will be changed.</desc>
       </argument>
       <argument name="context" type="Object">
@@ -1165,7 +1165,7 @@ alert( obj.name === "John" );]]></code>
   <desc>Bind an event handler to the "focusout" JavaScript event.</desc>
   <signature>
     <added>1.4</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -1174,7 +1174,7 @@ alert( obj.name === "John" );]]></code>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -1223,7 +1223,7 @@ $("p").focusout(function() {
   <desc>Bind an event handler to the "focusin" JavaScript event.</desc>
   <signature>
     <added>1.4</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -1232,7 +1232,7 @@ $("p").focusout(function() {
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -1986,7 +1986,7 @@ $("input").click(function(){
             <entry type='método' name="each" return="jQuery">
                 <signature>
                   <added>1.0</added>
-                  <argument name="function(index, Element)" type="Function">
+                  <argument name="function(index, Element)" type="Função">
                     <desc>A function to execute for each matched element.</desc>
                   </argument>
                 </signature>
@@ -2415,7 +2415,7 @@ span { color:red; }
 		<argument name="queueName" type="String">
 			<desc>A string containing the name of the queue. Defaults to <code>fx</code>, the standard effects queue.</desc>
 		</argument>
-		<argument name="callback()" type="Function">
+		<argument name="callback()" type="Função">
 			<desc>The new function to add to the queue.</desc>
 		</argument>
 	</signature>
@@ -2604,7 +2604,7 @@ jQuery.isPlainObject("test") // false]]></code>
 <entry type='método' name="keydown" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -2613,7 +2613,7 @@ jQuery.isPlainObject("test") // false]]></code>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5171,7 +5171,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   <desc>Bind an event handler to the "scroll" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5180,7 +5180,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5251,7 +5251,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
   <desc>Bind an event handler to the "resize" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5260,7 +5260,7 @@ $("body").prepend("<h3>" + elementCount + " elements found</h3>");]]></code>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5383,7 +5383,7 @@ $("button").click(function () {
     <argument name="queueName" optional="true" type="String">
       <desc>A string containing the name of the queue. Defaults to <code>fx</code>, the standard effects queue.</desc>
     </argument>
-    <argument name="callback( next )" type="Function">
+    <argument name="callback( next )" type="Função">
       <desc>The new function to add to the queue, with a function to call that will dequeue the next item.</desc>
     </argument>
   </signature>
@@ -5473,7 +5473,7 @@ $('#foo').queue(function() {
   <desc>Bind an event handler to the "keyup" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5482,7 +5482,7 @@ $('#foo').queue(function() {
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5566,7 +5566,7 @@ input { display: block; margin-bottom: .25em; }
   <desc>Bind an event handler to the "keypress" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5575,7 +5575,7 @@ input { display: block; margin-bottom: .25em; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5663,7 +5663,7 @@ input { display: block; margin-bottom: .25em; }
   <desc>Bind an event handler to the "submit" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5672,7 +5672,7 @@ input { display: block; margin-bottom: .25em; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5754,7 +5754,7 @@ input { display: block; margin-bottom: .25em; }
   <desc>Bind an event handler to the "select" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5763,7 +5763,7 @@ input { display: block; margin-bottom: .25em; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5829,7 +5829,7 @@ input { display: block; margin-bottom: .25em; }
   <desc>Bind an event handler to the "change" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5838,7 +5838,7 @@ input { display: block; margin-bottom: .25em; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5914,7 +5914,7 @@ input { display: block; margin-bottom: .25em; }
   <desc>Bind an event handler to the "blur" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5923,7 +5923,7 @@ input { display: block; margin-bottom: .25em; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5970,7 +5970,7 @@ $('#target').blur(function() {
   <desc>Bind an event handler to the "focus" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -5979,7 +5979,7 @@ $('#target').blur(function() {
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6050,7 +6050,7 @@ $('#target').blur(function() {
   <desc>Bind an event handler to the "mousemove" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6059,7 +6059,7 @@ $('#target').blur(function() {
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6141,10 +6141,10 @@ $('#target').blur(function() {
   <desc>Bind two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handlerIn(eventObject)" type="Function">
+    <argument name="handlerIn(eventObject)" type="Função">
       <desc>A function to execute when the mouse pointer enters the element.</desc>
     </argument>
-    <argument name="handlerOut(eventObject)" type="Function">
+    <argument name="handlerOut(eventObject)" type="Função">
       <desc>A function to execute when the mouse pointer leaves the element.</desc>
     </argument>
   </signature>
@@ -6210,7 +6210,7 @@ $("li.fade").hover(function(){$(this).fadeOut(100);$(this).fadeIn(500);});
   <desc>Bind a single handler to the matched elements, to be executed when the mouse pointer enters or leaves the elements.</desc>
   <signature>
     <added>1.4</added>
-    <argument name="handlerInOut(eventObject)" type="Function">
+    <argument name="handlerInOut(eventObject)" type="Função">
       <desc>A function to execute when the mouse pointer enters or leaves the element.</desc>
     </argument>
   </signature>
@@ -6261,7 +6261,7 @@ $("li")
   <desc>Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6270,7 +6270,7 @@ $("li")
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6363,7 +6363,7 @@ padding:0;
   <desc>Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6372,7 +6372,7 @@ padding:0;
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6466,7 +6466,7 @@ padding:0;
   <desc>Bind an event handler to the "mouseout" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6475,7 +6475,7 @@ padding:0;
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6567,7 +6567,7 @@ padding:0;
   <desc>Bind an event handler to the "mouseover" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6576,7 +6576,7 @@ padding:0;
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6664,7 +6664,7 @@ p { line-height:1em; margin:0; padding:0; }
   <desc>Bind an event handler to the "dblclick" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6673,7 +6673,7 @@ p { line-height:1em; margin:0; padding:0; }
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6748,7 +6748,7 @@ For example, consider the HTML:</p>
   <desc>Bind an event handler to the "click" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6757,7 +6757,7 @@ For example, consider the HTML:</p>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6829,7 +6829,7 @@ For example, consider the HTML:</p>
   <desc>Bind an event handler to the "mouseup" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6838,7 +6838,7 @@ For example, consider the HTML:</p>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6892,7 +6892,7 @@ For example, consider the HTML:</p>
   <desc>Bind an event handler to the "mousedown" JavaScript event, or trigger that event on an element.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6901,7 +6901,7 @@ For example, consider the HTML:</p>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -6957,7 +6957,7 @@ For example, consider the HTML:</p>
   <desc>Bind an event handler to the "error" JavaScript event.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute when the event is triggered.</desc>
     </argument>
   </signature>
@@ -6966,7 +6966,7 @@ For example, consider the HTML:</p>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -7007,7 +7007,7 @@ For example, consider the HTML:</p>
 <entry type='método' name="unload" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute when the event is triggered.</desc>
     </argument>
   </signature>
@@ -7016,7 +7016,7 @@ For example, consider the HTML:</p>
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -7048,7 +7048,7 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
   <desc>Bind an event handler to the "load" JavaScript event.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute when the event is triggered.</desc>
     </argument>
   </signature>
@@ -7057,7 +7057,7 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute each time the event is triggered.</desc>
     </argument>
   </signature>
@@ -7099,7 +7099,7 @@ It is not possible to cancel the <code>unload</code> event with <code>.preventDe
   <desc>Specify a function to execute when the DOM is fully loaded.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute after the DOM is ready.</desc>
     </argument>
   </signature>
@@ -7351,7 +7351,7 @@ if ( $.browser.msie ) {
     <argument name="eventType" type="String">
       <desc>A string containing a JavaScript event type, such as "click" or "keydown." As of jQuery 1.4 the string can contain multiple, space-separated event types or custom event names, as well.</desc>
     </argument>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -7363,7 +7363,7 @@ if ( $.browser.msie ) {
     <argument name="eventData" type="Object">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler" type="Function">
+    <argument name="handler" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -7664,7 +7664,7 @@ pass:"bar"
             <entry type='método' name="ajaxComplete" return="jQuery">
 				<signature>
                 	<added>1.0</added>
-	                <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Function">
+	                <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Função">
 	                    <desc>The function to be invoked.</desc>
 	                </argument>
 				</signature>
@@ -7717,7 +7717,7 @@ pass:"bar"
     <argument name="eventData" type="Object" optional="true">
       <desc>A map of data that will be passed to the event handler.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function">
+    <argument name="handler(eventObject)" type="Função">
       <desc>A function to execute at the time the event is triggered.</desc>
     </argument>
   </signature>
@@ -8008,7 +8008,7 @@ alert( $(this).text() );
 <entry type='método' name="ajaxSuccess" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Function">
+    <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Função">
       <desc>The function to be invoked.</desc>
     </argument>
   </signature>
@@ -8059,7 +8059,7 @@ alert( $(this).text() );
   <desc>Register a handler to be called when all Ajax requests have completed. This is an <a href='http://docs.jquery.com/Ajax_Events'>Ajax Event</a>.</desc>
   <signature>
     <added>1.0</added>
-    <argument name="handler()" type="Function">
+    <argument name="handler()" type="Função">
       <desc>The function to be invoked.</desc>
     </argument>
   </signature>
@@ -8092,7 +8092,7 @@ alert( $(this).text() );
 <entry type='método' name="ajaxStart" return="jQuery">
 				<signature>
                 	<added>1.0</added>
-	                <argument name="handler()" type="Function">
+	                <argument name="handler()" type="Função">
 	                    <desc>The function to be invoked.</desc>
 	                </argument>
 				</signature>
@@ -8126,7 +8126,7 @@ alert( $(this).text() );
 <entry type='método' name="ajaxSend" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Function">
+    <argument name="handler(event, XMLHttpRequest, ajaxOptions)" type="Função">
       <desc>The function to be invoked.</desc>
     </argument>
   </signature>
@@ -8168,7 +8168,7 @@ alert( $(this).text() );
 <entry type='método' name="ajaxError" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="handler(event, jqXHR, ajaxSettings, thrownError)" type="Function">
+    <argument name="handler(event, jqXHR, ajaxSettings, thrownError)" type="Função">
       <desc>The function to be invoked.</desc>
     </argument>
   </signature>
@@ -8213,7 +8213,7 @@ alert( $(this).text() );
     <argument name="eventType" type="String" optional="true">
       <desc>A string containing a JavaScript event type, such as <code>click</code> or <code>submit</code>.</desc>
     </argument>
-    <argument name="handler(eventObject)" type="Function" optional="true">
+    <argument name="handler(eventObject)" type="Função" optional="true">
       <desc>The function that is to be no longer executed.</desc>
     </argument>
   </signature>
@@ -8342,7 +8342,7 @@ $("p").unbind("click", foo); // ... foo will no longer be called.]]></code>
   <argument name="eventData" type="Object" optional="true">
     <desc>A map of data that will be passed to the event handler.</desc>
   </argument>
-  <argument name="handler(eventObject)" type="Function">
+  <argument name="handler(eventObject)" type="Função">
     <desc>A function to execute each time the event is triggered.</desc>
   </argument>
 </signature>
@@ -8865,7 +8865,7 @@ $('&lt;input&gt;');
 <entry type='método' name="jQuery" return="jQuery">
   <signature>
     <added>1.0</added>
-    <argument name="callback" type="Function">
+    <argument name="callback" type="Função">
         <desc>The function to execute when the DOM is ready.</desc>
     </argument>
   </signature>
@@ -9177,7 +9177,7 @@ $('ul.first').find('.foo')
     <argument name="easing" type="String" optional="true">
       <desc>A string indicating which easing function to use for the transition.</desc>
     </argument>
-    <argument name="complete" type="Function" optional="true">
+    <argument name="complete" type="Função" optional="true">
       <desc>A function to call once the animation is complete.</desc>
     </argument>
   </signature>
@@ -10303,7 +10303,7 @@ $("span").click(function () {
     <argument name="data" optional="true" type="Map, String">
       <desc>A map or string that is sent to the server with the request.</desc>
     </argument>
-    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Function">
+    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Função">
       <desc>A callback function that is executed if the request succeeds.</desc>
     </argument>
     <argument name="dataType" optional="true" type="String">
@@ -10824,7 +10824,7 @@ margin:10px; }
 	                <argument name="url" type="String">
 	                    <desc>A string containing the URL to which the request is sent.</desc>
 	                </argument>
-	                <argument name="success(data, textStatus)" optional="true" type="Function">
+	                <argument name="success(data, textStatus)" optional="true" type="Função">
 	                    <desc>A callback function that is executed if the request succeeds.</desc>
 	                </argument>
 				</signature>
@@ -11057,7 +11057,7 @@ $('li.item-a').closest('#one', listItemII)
     <argument name="data" optional="true" type="Map">
       <desc>A map or string that is sent to the server with the request.</desc>
     </argument>
-    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Function">
+    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Função">
       <desc>A callback function that is executed if the request succeeds.</desc>
     </argument>
   </signature>
@@ -11167,7 +11167,7 @@ $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?
     <argument name="data" optional="true" type="Map, String">
       <desc>A map or string that is sent to the server with the request.</desc>
     </argument>
-    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Function">
+    <argument name="success(data, textStatus, jqXHR)" optional="true" type="Função">
       <desc>A callback function that is executed if the request succeeds.</desc>
     </argument>
     <argument name="dataType" optional="true" type="String">
@@ -11256,7 +11256,7 @@ alert("Data Loaded: " + data);
     <argument name="data" optional="true " type="Map, String">
       <desc>A map or string that is sent to the server with the request.</desc>
     </argument>
-    <argument name="complete(responseText, textStatus, XMLHttpRequest)" type="Function" optional="true">
+    <argument name="complete(responseText, textStatus, XMLHttpRequest)" type="Função" optional="true">
       <desc>A callback function that is executed when the request completes.</desc>
     </argument>
   </signature>
@@ -11351,7 +11351,7 @@ alert("The last 25 entries in the feed have been loaded");
       <option default="true" name="async" type="Boolean">
         <desc>By default, all requests are sent asynchronously (i.e. this is set to <code>true</code> by default). If you need synchronous requests, set this option to <code>false</code>. Cross-domain requests and <code>dataType: "jsonp"</code> requests do not support synchronous operation. Note that synchronous requests may temporarily lock the browser, disabling any actions while the request is active.</desc>
       </option>
-      <option name="beforeSend(jqXHR, settings)" type="Function">
+      <option name="beforeSend(jqXHR, settings)" type="Função">
         <desc>A pre-request callback function that can be used to modify the jqXHR (in jQuery 1.4.x, XMLHTTPRequest) object before it is sent. Use this to set custom headers, etc. The jqXHR and settings maps are passed as arguments. This is an <a href='http://docs.jquery.com/Ajax_Events'>Ajax Event</a>. Returning <code>false</code> in the <code>beforeSend</code> function will cancel the request. <strong>As of jQuery 1.5</strong>, the <code>beforeSend</code> option will be called regardless of the type of request.</desc>
       </option>
       <option default="true, false for dataType 'script' and 'jsonp'" name="cache" type="Boolean">
@@ -11384,7 +11384,7 @@ alert("The last 25 entries in the feed have been loaded");
       <option name="data" type="Object, String">
         <desc>Data to be sent to the server. It is converted to a query string, if not already a string. It's appended to the url for GET-requests. See processData option to prevent this automatic processing. Object must be Key/Value pairs. If value is an Array, jQuery serializes multiple values with same key based on the value of the <code>traditional</code> setting (described below).</desc>
       </option>
-      <option name="dataFilter(data, type)" type="Function">
+      <option name="dataFilter(data, type)" type="Função">
         <desc>A function to be used to handle the raw response data of XMLHttpRequest.This is a pre-filtering function to sanitize the response. You should return the sanitized data. The function accepts two arguments: The raw data returned from the server and the 'dataType' parameter.</desc>
       </option>
       <option name="dataType" default="Intelligent Guess (xml, json, script, or html)" type="String">
@@ -11400,7 +11400,7 @@ alert("The last 25 entries in the feed have been loaded");
             </li>
           </ul></desc>
         </option>
-        <option name="error(jqXHR, textStatus, errorThrown)" type="Function">
+        <option name="error(jqXHR, textStatus, errorThrown)" type="Função">
           <desc>A function to be called if the request fails. The function receives three arguments: The jqXHR (in jQuery 1.4.x, XMLHttpRequest) object, a string describing the type of error that occurred and an optional exception object, if one occurred. Possible values for the second argument (besides <code>null</code>) are <code>"timeout"</code>, <code>"error"</code>, <code>"abort"</code>, and <code>"parsererror"</code>. This is an <a href='http://docs.jquery.com/Ajax_Events'>Ajax Event</a>. <strong>As of jQuery 1.5</strong>, the <code>error</code> setting can accept an array of functions. Each function will be called in turn.  <strong>Note:</strong> <em>This handler is not called for cross-domain script and JSONP requests.</em> </desc>
         </option>
         <option default="true" name="global" type="Boolean">
@@ -11464,7 +11464,7 @@ alert("The last 25 entries in the feed have been loaded");
         <option name="username" type="String">
           <desc>A username to be used in response to an HTTP access authentication request.</desc>
         </option>
-        <option name="xhr" type="Function" default="ActiveXObject when available (IE), the XMLHttpRequest otherwise">
+        <option name="xhr" type="Função" default="ActiveXObject when available (IE), the XMLHttpRequest otherwise">
           <desc>Callback for creating the XMLHttpRequest object. Defaults to the ActiveXObject when available (IE), the XMLHttpRequest otherwise. Override to provide your own implementation for XMLHttpRequest or enhancements to the factory.</desc>
         </option>
         <option name="xhrFields" type="Map" added="1.5.1">
@@ -11970,7 +11970,7 @@ The value of this property is typically equal to document, as this is the defaul
               </signature>
               <signature>
                 <added>1.4</added>
-                <argument name="function(index)" type="Function">
+                <argument name="function(index)" type="Função">
                     <desc>A function used as a test for each element in the set. <code>this</code> is the current DOM element.</desc>
                 </argument>
               </signature>
@@ -12560,7 +12560,7 @@ $(document).width(); // returns width of HTML document</pre>
 				</signature>
     <signature>
       <added>1.4.1</added>
-      <argument name="function(index, width)" type="Function">
+      <argument name="function(index, width)" type="Função">
         <desc>A function returning the width to set. Receives the index position of the element in the set and the old width as arguments.</desc>
       </argument>
     </signature>
@@ -12660,7 +12660,7 @@ $(document).height(); // returns height of HTML document</pre>
 				</signature>
     <signature>
       <added>1.4.1</added>
-      <argument name="function(index, height)" type="Function">
+      <argument name="function(index, height)" type="Função">
         <desc>A function returning the height to set. Receives the index position of the element in the set and the old height as arguments.</desc>
       </argument>
     </signature>
@@ -13107,7 +13107,7 @@ $("span:eq(2)").text(jQuery.inArray("Karl", arr));
     <argument name="array" type="Array">
       <desc>The Array to translate.</desc>
     </argument>
-    <argument name="callback(elementOfArray, indexInArray)" type="Function">
+    <argument name="callback(elementOfArray, indexInArray)" type="Função">
       <desc>The function to process each item against.  The first argument to the function is the list item, the second argument is the index in array The function can return any value.  <code>this</code> will be the global window object. </desc>
     </argument>
   </signature>
@@ -13244,7 +13244,7 @@ jQuery.isArray(arr) === true;]]>
     <argument name="array" type="Array">
       <desc>The array to search through.</desc>
     </argument>
-    <argument name="function(elementOfArray, indexInArray)" type="Function">
+    <argument name="function(elementOfArray, indexInArray)" type="Função">
       <desc>The function to process each item against.  The first argument to the function is the item, and the second argument is the index.  The function should return a Boolean value.  <code>this</code> will be the global window object.</desc>
     </argument>
     <argument name="invert" optional="true" type="Boolean">
@@ -13401,7 +13401,7 @@ empty == { validate: true, limit: 5, name: "bar" }]]></results>
     <argument name="collection" type="Object">
       <desc>The object or array to iterate over.</desc>
     </argument>
-    <argument name="callback(indexInArray, valueOfElement)" type="Function">
+    <argument name="callback(indexInArray, valueOfElement)" type="Função">
       <desc>The function that will be executed on every object.</desc>
     </argument>
   </signature>
@@ -13722,7 +13722,7 @@ div.abs { width:50px; height:50px; position:absolute;
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, coords)" type="Function">
+    <argument name="function(index, coords)" type="Função">
       <desc>A function to return the coordinates to set. Receives the index of the element in the collection as the first argument and the current coordinates as the second argument. The function should return an object with the new <code>top</code> and <code>left</code> properties.</desc>
     </argument>
   </signature>
@@ -13799,7 +13799,7 @@ div { width:60px; height:60px; margin:5px; float:left; }
       <argument name="propertyName" type="String">
         <desc>A CSS property name.</desc>
       </argument>
-      <argument name="function(index, value)" type="Function">
+      <argument name="function(index, value)" type="Função">
         <desc>A function returning the value to set. Receives the index position of the element in the set and the old value as arguments.</desc>
       </argument>
     </signature>
@@ -14182,7 +14182,7 @@ $("button").toggle(function(){
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function" type="Function">
+    <argument name="function" type="Função">
       <desc>A function that returns content with which to replace the set of matched elements.</desc>
     </argument>
   </signature>
@@ -14327,7 +14327,7 @@ $('button').bind("click", function() {
 				</signature>
 				<signature>
                 	<added>1.4</added>
-	                <argument name="wrappingFunction" type="Function">
+	                <argument name="wrappingFunction" type="Função">
 	                    <desc>A callback function which generates a structure to wrap around the content of the matched elements.</desc>
 	                </argument>
 				</signature>
@@ -14500,7 +14500,7 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index)" type="Function">
+    <argument name="function(index)" type="Função">
       <desc>A callback function returning the HTML content or jQuery object to wrap around the matched elements.</desc>
     </argument>
   </signature>
@@ -14646,7 +14646,7 @@ $(elem).wrapInner(&quot;&lt;div class=\&quot;test\&quot;&gt;&lt;/div&gt;&quot;);
 				</signature>
 				<signature>
                 	<added>1.4</added>
-	                <argument name="function" type="Function">
+	                <argument name="function" type="Função">
 	                    <desc>A function that returns an HTML string to insert before each element in the set of matched elements.</desc>
 	                </argument>
 				</signature>
@@ -14769,7 +14769,7 @@ $('p').first().before($newdiv1, [newdiv2, existingdiv1]);
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index)" type="Function">
+    <argument name="function(index)" type="Função">
       <desc>A function that returns an HTML string to insert after each element in the set of matched elements.</desc>
     </argument>
   </signature>
@@ -14914,7 +14914,7 @@ $('p').first().after($newdiv1, [newdiv2, existingdiv1]);
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, html)" type="Function">
+    <argument name="function(index, html)" type="Função">
       <desc>A function that returns an HTML string to insert at the beginning of each element in the set of matched elements. Receives the index position of the element in the set and the old HTML value of the element as arguments.</desc>
     </argument>
   </signature>
@@ -15052,7 +15052,7 @@ $('body').prepend($newdiv1, [newdiv2, existingdiv1]);
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, html)" type="Function">
+    <argument name="function(index, html)" type="Função">
       <desc>A function that returns an HTML string to insert at the end of each element in the set of matched elements. Receives the index position of the element in the set and the old HTML value of the element as arguments.</desc>
     </argument>
   </signature>
@@ -15217,7 +15217,7 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, value)" type="Function">
+    <argument name="function(index, value)" type="Função">
       <desc>A function returning the value to set.</desc>
     </argument>
   </signature>
@@ -15352,7 +15352,7 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, text)" type="Function">
+    <argument name="function(index, text)" type="Função">
       <desc>A function returning the text content to set. Receives the index position of the element in the set and the old text value as arguments.</desc>
     </argument>
   </signature>
@@ -15459,7 +15459,7 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, oldhtml)" type="Function">
+    <argument name="function(index, oldhtml)" type="Função">
       <desc>A function returning the HTML content to set. Receives the index position of the element in the set and the old HTML value as arguments. jQuery empties the element before calling the function; use the oldhtml argument to reference the previous content.</desc>
     </argument>
   </signature>
@@ -15525,7 +15525,7 @@ $('input:radio[name=bar]:checked').val(); // get the value from a set of radio b
             <entry type='método' name="map" return="jQuery">
               <signature>
                 <added>1.2</added>
-                <argument name="callback(index, domElement)" type="Function">
+                <argument name="callback(index, domElement)" type="Função">
                     <desc>A function object that will be invoked for each element in the current set.</desc>
                 </argument>
               </signature>
@@ -15813,7 +15813,7 @@ input { clear:left}
                 </signature>
                 <signature>
                   <added>1.0</added>
-                  <argument name="function(index)" type="Function">
+                  <argument name="function(index)" type="Função">
                     <desc>A function used as a test for each element in the set. <code>this</code> is the current DOM element.</desc>
                   </argument>
                 </signature>
@@ -15953,7 +15953,7 @@ $('li').filter(function(index) {
     </signature>
     <signature>
         <added>1.4</added>
-        <argument name="function(index, class)" type="Function">
+        <argument name="function(index, class)" type="Função">
             <desc>A function that returns class names to be toggled in the class attribute of each element in the matched set. Receives the index position of the element in the set and the old class value as arguments.</desc>
         </argument>
         <argument name="switch" optional="true" type="Boolean">
@@ -16054,7 +16054,7 @@ $("p").each(function() {
                 </signature>
                 <signature>
                   <added>1.4</added>
-                  <argument name="function(index, class)" type="Function">
+                  <argument name="function(index, class)" type="Função">
                     <desc>A function returning one or more space-separated class names to be removed. Receives the index position of the element in the set and the old class value as arguments.</desc>
                   </argument>
                 </signature>
@@ -16259,7 +16259,7 @@ var title = $("em").attr("title");
     <argument name="attributeName" type="String">
       <desc>The name of the attribute to set.</desc>
     </argument>
-    <argument name="function(index, attr)" type="Function">
+    <argument name="function(index, attr)" type="Função">
       <desc>A function returning the value to set. <code>this</code> is the current element. Receives the index position of the element in the set and the old attribute value as arguments.</desc>
     </argument>
   </signature>
@@ -16372,7 +16372,7 @@ $("img").attr("src", function() {
   </signature>
   <signature>
     <added>1.4</added>
-    <argument name="function(index, currentClass)" type="Function">
+    <argument name="function(index, currentClass)" type="Função">
       <desc>A function returning one or more space-separated class names to be added. Receives the index position of the element in the set and the old class value as arguments.</desc>
     </argument>
   </signature>
